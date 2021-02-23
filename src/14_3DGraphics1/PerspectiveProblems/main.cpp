@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 #include "GameLib/Input/Manager.h"
 #include "GameLib/Input/Keyboard.h"
 
@@ -30,20 +30,20 @@ namespace GameLib{
 			{ 1.0, 1.0 },
 		};
 
-		//x,y‚É640‚ğ‚©‚¯‚Ä‚©‚çz‚ÅŠ„‚èA(320,240)‚ğ‘«‚·Bz‚ğ[1,10000]‚©‚ç[0,1]‚É”ÍˆÍ•ÏŠ·‚·‚éB
+		//x,yã«640ã‚’ã‹ã‘ã¦ã‹ã‚‰zã§å‰²ã‚Šã€(320,240)ã‚’è¶³ã™ã€‚zã‚’[1,10000]ã‹ã‚‰[0,1]ã«ç¯„å›²å¤‰æ›ã™ã‚‹ã€‚
 		for ( int i = 0; i < 4; ++i ){
-			//ˆÚ“®—Ê”½‰f
+			//ç§»å‹•é‡åæ˜ 
 			p[ i ][ 2 ] += gZMove;
-			//Šg‘åAzŠ„‚è
+			//æ‹¡å¤§ã€zå‰²ã‚Š
 			p[ i ][ 0 ] *= 640.0 / p[ i ][ 2 ];
 			p[ i ][ 1 ] *= 640.0 / p[ i ][ 2 ];
-			//’†S‚¸‚ç‚µ
+			//ä¸­å¿ƒãšã‚‰ã—
 			p[ i ][ 0 ] += 320.f;
 			p[ i ][ 1 ] += 240.f;
-			//z”ÍˆÍ•ÏŠ·
+			//zç¯„å›²å¤‰æ›
 			p[ i ][ 2 ] = ( 1.0/9999.0 ) * p[ i ][ 2 ] - ( 1.0/9999.0 );
 		}
-		//lŠpŒ`‚ğ•`‚­B
+		//å››è§’å½¢ã‚’æãã€‚
 		setTexture( gTexture );
 		drawTriangle3D( p[ 0 ], p[ 1 ], p[ 2 ], uv[ 0 ], uv[ 1 ], uv[ 2 ], 0xffff0000, 0xffff0000, 0xffff0000 );
 		drawTriangle3D( p[ 3 ], p[ 1 ], p[ 2 ], uv[ 3 ], uv[ 1 ], uv[ 2 ], 0xff00ff00, 0xff00ff00, 0xff00ff00 );
@@ -53,7 +53,7 @@ namespace GameLib{
 		}else if ( Input::Manager::instance().keyboard().isOn( 'w' ) ){
 			gZMove += 25.f; 
 		}
-		//•\¦
+		//è¡¨ç¤º
 		ostringstream oss;
 		oss << "[w-z] Z MOVEMENT: " << gZMove;
 		drawDebugString( 10, 0, oss.str().c_str() );

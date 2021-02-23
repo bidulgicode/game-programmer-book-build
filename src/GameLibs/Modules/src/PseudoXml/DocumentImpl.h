@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_PSEUDOXML_DOCUMENTIMPL_H
+ï»¿#ifndef INCLUDED_GAMELIB_PSEUDOXML_DOCUMENTIMPL_H
 #define INCLUDED_GAMELIB_PSEUDOXML_DOCUMENTIMPL_H
 
 #include "GameLib/FileIO/InFile.h"
@@ -39,7 +39,7 @@ public:
 		p[ size ] = '\0';
 		return p;
 	}
-	//ˆÈ‰ºcpp‚É‚Ä’è‹`BzŠÂQÆ‚ğ”ğ‚¯‚é‚½‚ß
+	//ä»¥ä¸‹cppã«ã¦å®šç¾©ã€‚å¾ªç’°å‚ç…§ã‚’é¿ã‘ã‚‹ãŸã‚
 	Impl();
 	~Impl();
 	Element::Impl* allocateElement( int n );

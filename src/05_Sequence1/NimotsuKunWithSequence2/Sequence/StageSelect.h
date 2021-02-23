@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_STAGE_SELECT_H
+﻿#ifndef INCLUDED_SEQUENCE_STAGE_SELECT_H
 #define INCLUDED_SEQUENCE_STAGE_SELECT_H
 
 class Image;
@@ -12,7 +12,7 @@ public:
 	~StageSelect();
 	void update( Parent* );
 private:
-	Image* mImage; //�ʃZ���摜
+	Image* mImage; //面セレ画像
 };
 
 } //namespace Sequence

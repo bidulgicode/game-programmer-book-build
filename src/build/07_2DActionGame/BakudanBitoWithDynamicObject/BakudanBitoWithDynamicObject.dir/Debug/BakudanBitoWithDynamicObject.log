@@ -1,0 +1,146 @@
+﻿  File.cpp
+  Image.cpp
+  main.cpp
+  Ending.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF75'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF92'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF83'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF84'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF73'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF71'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF85'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF8A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF7A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF89'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF79'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF70'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF91'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF66'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF7E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF72'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF7C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(27,27): warning C4566: 유니버설 문자 이름 '\uFF8F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF82'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF78'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF6F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF8B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF84'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF97'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF94'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF8F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF76'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Ending.cpp(28,27): warning C4566: 유니버설 문자 이름 '\uFF7C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  GameOver.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF79'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF70'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF91'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF75'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF8A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF7B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF9D'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF88'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF83'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF7C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\GameOver.cpp(26,47): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Title.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF72'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF84'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF99'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF8A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF78'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF9D'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(45,27): warning C4566: 유니버설 문자 이름 '\uFF8B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF8B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF84'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF98'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF83'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF71'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF7F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(46,27): warning C4566: 유니버설 문자 이름 '\uFF8C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF8C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF98'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF83'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF7A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF9B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF7C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF71'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Title.cpp(47,27): warning C4566: 유니버설 문자 이름 '\uFF73'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Clear.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Clear.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF78'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Clear.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF98'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Clear.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF71'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Clear.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF70'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Failure.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Failure.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF71'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Failure.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF70'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Failure.cpp(34,47): warning C4566: 유니버설 문자 이름 '\uFF6F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Judge.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF7C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF6E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF73'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF8A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF72'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF79'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF6F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(48,27): warning C4566: 유니버설 문자 이름 '\uFF83'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF89'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF76'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF81'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF8F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF7A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF9B'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF7C'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF71'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF73'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF94'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF92'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF83'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF72'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF84'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF99'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF76'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF9D'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Judge.cpp(52,27): warning C4566: 유니버설 문자 이름 '\uFF8D'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Pause.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF8E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF9F'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF70'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF7D'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(49,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF79'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF70'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF91'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF66'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF82'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(50,27): warning C4566: 유니버설 문자 이름 '\uFF99'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF80'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF72'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF84'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF99'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF86'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF93'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\07_2DActionGame\BakudanBitoWithDynamicObject\Sequence\Game\Pause.cpp(51,27): warning C4566: 유니버설 문자 이름 '\uFF9E'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Play.cpp
+  Ready.cpp
+  DynamicObject.cpp
+  State.cpp
+  StaticObject.cpp
+  코드를 생성하고 있습니다...
+  Parent.cpp
+  Parent.cpp
+  BakudanBitoWithDynamicObject.vcxproj -> C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\07_2DActionGame\BakudanBitoWithDynamicObject\Debug\BakudanBitoWithDynamicObject.exe
+  CopyResource

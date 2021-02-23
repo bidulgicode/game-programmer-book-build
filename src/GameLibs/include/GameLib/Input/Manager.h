@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_INPUT_MANAGER_H
+Ôªø#ifndef INCLUDED_GAMELIB_INPUT_MANAGER_H
 #define INCLUDED_GAMELIB_INPUT_MANAGER_H
 
 namespace GameLib{
@@ -20,7 +20,7 @@ public:
 	Joystick joystick( int i = 0 ) const;
 	int joystickNumber() const;
 
-	//à»â∫ímÇÁÇ»Ç≠ÇƒÇ¢Ç¢
+	//‰ª•‰∏ãÁü•„Çâ„Å™„Åè„Å¶„ÅÑ„ÅÑ
 	static void create( void* windowHandle );
 	static void destroy();
 	void update( float pointerScale, const Math::Vector2& pointerOffset );

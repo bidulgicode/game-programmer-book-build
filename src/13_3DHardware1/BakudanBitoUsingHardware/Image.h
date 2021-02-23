@@ -1,4 +1,4 @@
-#ifndef INCLUDED_IMAGE_H
+﻿#ifndef INCLUDED_IMAGE_H
 #define INCLUDED_IMAGE_H
 
 namespace GameLib{

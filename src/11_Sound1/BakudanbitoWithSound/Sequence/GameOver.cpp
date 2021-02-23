@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 #include "GameLib/Framework.h"
 using namespace GameLib;
 
@@ -17,13 +17,13 @@ GameOver::~GameOver(){
 }
 
 void GameOver::update( Parent* parent ){
-	if ( mCount == 60 ){ //1•b‘Ò‚Â 
+	if ( mCount == 60 ){ //1ç§’å¾…ã¤ 
 		parent->moveTo( Parent::NEXT_TITLE );
 	}
-	//•`‰æ
+	//æç”»
 	mImage->draw();
-	//š‚ğo‚·
-	Framework::instance().drawDebugString( 0, 0, "¹Ş°Ñµ°ÊŞ° »ŞİÈİÃŞ¼ÀÈ" );
+	//å­—ã‚’å‡ºã™
+	Framework::instance().drawDebugString( 0, 0, "ï½¹ï¾ï½°ï¾‘ï½µï½°ï¾Šï¾ï½° ï½»ï¾ï¾ï¾ˆï¾ï¾ƒï¾ï½¼ï¾€ï¾ˆ" );
 
 	++mCount;
 }

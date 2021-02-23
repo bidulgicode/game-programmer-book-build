@@ -1,4 +1,4 @@
-#ifndef INCLUDED_BATCH_H
+﻿#ifndef INCLUDED_BATCH_H
 #define INCLUDED_BATCH_H
 
 #include "GameLib/Framework.h"

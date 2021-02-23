@@ -1,16 +1,16 @@
-#ifndef INCLUDED_GAMELIB_BASE_MEMORYMANAGER_H
+﻿#ifndef INCLUDED_GAMELIB_BASE_MEMORYMANAGER_H
 #define INCLUDED_GAMELIB_BASE_MEMORYMANAGER_H
 
 namespace GameLib{
 
-//new�������ǂ�N���X
+//newをつかさどるクラス
 class MemoryManager{
 public:
 	static MemoryManager instance();
 
-	///���̏����o��(�t�@�C������^����΃t�@�C���ցA�^���Ȃ���΃f�o�O�o�͂�)
+	///情報の書き出し(ファイル名を与えればファイルへ、与えなければデバグ出力へ)
 	void write( const char* filename = 0 );
-	///�S�m�ۗe��(�����\��e�ʂ��܂�)
+	///全確保容量(内部予約容量を含む)
 	int totalSize() const;
 };
 

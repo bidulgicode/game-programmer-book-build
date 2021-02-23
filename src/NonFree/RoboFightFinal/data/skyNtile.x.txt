@@ -1,4 +1,4 @@
-<Container>
+﻿<Container>
 	<VertexBuffer name="batch0_vb">
 		<Vertex position="0, 0.5207, -0.729" normal="0, -0.8628, 0.5056" uv="5.29e-3, 0.2263"/>
 		<Vertex position="0, 0.309, -0.9511" normal="1.e-6, -0.4655, 0.8851" uv="5.29e-3, 0.6128"/>

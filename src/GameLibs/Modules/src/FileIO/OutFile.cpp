@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+﻿#include "GameLib/GameLib.h"
 #include "GameLib/FileIO/OutFile.h"
 #include "FileIO/OutFileImpl.h"
 #include "FileIO/ManagerImpl.h"
@@ -35,7 +35,7 @@ bool OutFile::isError() const {
 	return mImpl->isError();
 }
 
-//�ȉ���ԃR�[�h
+//以下定番コード
 OutFile::OutFile() : mImpl( 0 ){
 }
 

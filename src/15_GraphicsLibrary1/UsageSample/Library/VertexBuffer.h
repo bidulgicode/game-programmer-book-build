@@ -1,4 +1,4 @@
-#ifndef INCLUDED_VERTEX_BUFFER_H
+﻿#ifndef INCLUDED_VERTEX_BUFFER_H
 #define INCLUDED_VERTEX_BUFFER_H
 
 class Vector3;

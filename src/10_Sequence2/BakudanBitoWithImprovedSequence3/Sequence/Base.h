@@ -1,11 +1,11 @@
-#ifndef INCLUDED_SEQUENCE_BASE_H
+ï»¿#ifndef INCLUDED_SEQUENCE_BASE_H
 #define INCLUDED_SEQUENCE_BASE_H
 
 namespace Sequence{
 
 class Base{
 public:
-	virtual ~Base(){} //‚È‚É‚à‚µ‚È‚¢‚Ì‚Å‚±‚ê‚Å‚¢‚¢
+	virtual ~Base(){} //ãªã«ã‚‚ã—ãªã„ã®ã§ã“ã‚Œã§ã„ã„
 	virtual Base* update( Base* ) = 0;
 };
 

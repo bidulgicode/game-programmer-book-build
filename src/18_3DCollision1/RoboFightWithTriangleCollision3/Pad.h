@@ -1,4 +1,4 @@
-#ifndef INCLUDED_PAD_H
+﻿#ifndef INCLUDED_PAD_H
 #define INCLUDED_PAD_H
 
 class Pad{

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_FILEIO_INFILEIMPL_H
+Ôªø#ifndef INCLUDED_GAMELIB_FILEIO_INFILEIMPL_H
 #define INCLUDED_GAMELIB_FILEIO_INFILEIMPL_H
 
 #include "GameLib/GameLib.h"
@@ -37,7 +37,7 @@ public:
 	bool isError() const {
 		return mIsError;
 	}
-	void setError(){ //ÉGÉâÅ[Ç»ÇÁèIÇÌÇËÇ≈Ç†ÇÈ
+	void setError(){ //„Ç®„É©„Éº„Å™„ÇâÁµÇ„Çè„Çä„Åß„ÅÇ„Çã
 		mIsError = mIsFinished = true;
 	}
 	void setIterator( It it ){

@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 set( PROJECT_NAME      Sound1Framework )
 set( PROJECT_DIR_NAME  Sound1 )

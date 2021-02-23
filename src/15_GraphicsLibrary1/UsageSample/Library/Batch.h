@@ -1,4 +1,4 @@
-#ifndef INCLUDED_BATCH_H
+Ôªø#ifndef INCLUDED_BATCH_H
 #define INCLUDED_BATCH_H
 
 #include "GameLib/Framework.h"
@@ -17,7 +17,7 @@ public:
 	~Batch();
 	void draw( const Matrix44& transform ) const;
 private:
-	void operator=( const Batch& ); //ë„ì¸ïïàÛ
+	void operator=( const Batch& ); //‰ª£ÂÖ•Â∞ÅÂç∞
 
 	const VertexBuffer* mVertexBuffer;
 	const IndexBuffer* mIndexBuffer;

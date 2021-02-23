@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 #include "GameLib/Threading/Manager.h"
 #include "GameLib/WindowCreator/WindowCreator.h"
 
@@ -7,10 +7,10 @@
 namespace GameLib{
 namespace Threading{
 
-ManagerImpl* gManagerImpl = 0; //Impl‚ÌÀ‘Ì
+ManagerImpl* gManagerImpl = 0; //Implã®å®Ÿä½“
 
 Manager::Manager(){
-	//•ÊƒXƒŒƒbƒh‚©‚ç‚ÌŒÄ‚Ño‚µ‚Í‹–‚³‚È‚¢
+	//åˆ¥ã‚¹ãƒ¬ãƒƒãƒ‰ã‹ã‚‰ã®å‘¼ã³å‡ºã—ã¯è¨±ã•ãªã„
 	ASSERT( WindowCreator::isMainThread() && "you must call from MAIN thread" );
 }
 

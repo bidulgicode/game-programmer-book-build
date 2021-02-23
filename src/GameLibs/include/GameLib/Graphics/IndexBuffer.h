@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_GRAPHICS_INDEXBUFFER_H
+ï»¿#ifndef INCLUDED_GAMELIB_GRAPHICS_INDEXBUFFER_H
 #define INCLUDED_GAMELIB_GRAPHICS_INDEXBUFFER_H
 
 namespace GameLib{
@@ -16,7 +16,7 @@ public:
 	const char* name() const;
 	int indexNumber() const;
 
-	//ˆÈ‰ºƒ†[ƒU‚ÍˆÓ¯‚µ‚È‚¢ŠÖ”ŒQ
+	//ä»¥ä¸‹ãƒ¦ãƒ¼ã‚¶ã¯æ„è­˜ã—ãªã„é–¢æ•°ç¾¤
 	IndexBuffer();
 	~IndexBuffer();
 	IndexBuffer( const IndexBuffer& );

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_INDEX_BUFFER_H
+﻿#ifndef INCLUDED_INDEX_BUFFER_H
 #define INCLUDED_INDEX_BUFFER_H
 
 class IndexBuffer{

@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+﻿#include "GameLib/GameLib.h"
 #include "GameLib/Sound/Wave.h"
 #include "Sound/WaveImpl.h"
 #include "Sound/ManagerImpl.h"

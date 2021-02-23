@@ -1,4 +1,4 @@
-#include "BitStream.h"
+ï»¿#include "BitStream.h"
 
 IBitStream::IBitStream( const unsigned char* buffer ) : mBuffer( buffer ), mPosition( 0 ){
 }
@@ -93,6 +93,6 @@ void OBitStream::write( int a ){
 }
 
 int OBitStream::sizeInByte() const {
-	return ( mPosition + 7 ) / 8; //8‚ÅŠ„‚Á‚Ä—]‚è‚ª0‚È‚ç‚»‚Ì‚Ü‚ÜA—]‚è‚ª‚ ‚ê‚Î+1‚µ‚Ä•Ô‚·‚Ì‚¾‚ªA7‘«‚µ‚Ä‚©‚ç8‚ÅŠ„‚é‚Æ“¯‚¶‚±‚Æ‚ª‚Å‚«‚éB
+	return ( mPosition + 7 ) / 8; //8ã§å‰²ã£ã¦ä½™ã‚ŠãŒ0ãªã‚‰ãã®ã¾ã¾ã€ä½™ã‚ŠãŒã‚ã‚Œã°+1ã—ã¦è¿”ã™ã®ã ãŒã€7è¶³ã—ã¦ã‹ã‚‰8ã§å‰²ã‚‹ã¨åŒã˜ã“ã¨ãŒã§ãã‚‹ã€‚
 }
 

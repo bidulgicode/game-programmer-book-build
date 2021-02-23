@@ -1,4 +1,4 @@
-#ifndef INCLUDED_PSEUDO_XML_TAG_H
+ï»¿#ifndef INCLUDED_PSEUDO_XML_TAG_H
 #define INCLUDED_PSEUDO_XML_TAG_H
 
 #include <vector>
@@ -15,11 +15,11 @@ public:
 		TYPE_BEGIN,
 		TYPE_END,
 	};
-	Tag( const char* name ); //–¼‘O‚¾‚¯‚Ìƒ^ƒO‚ğì‚é
+	Tag( const char* name ); //åå‰ã ã‘ã®ã‚¿ã‚°ã‚’ä½œã‚‹
 	Tag( const char** readPointer, const char* end );
 	~Tag();
 	const string* name() const;
-	//ƒAƒgƒŠƒrƒ…[ƒg”z—ñƒQƒbƒgBd‚¢‚©‚çƒ|ƒCƒ“ƒ^•Ô‚µB
+	//ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆé…åˆ—ã‚²ãƒƒãƒˆã€‚é‡ã„ã‹ã‚‰ãƒã‚¤ãƒ³ã‚¿è¿”ã—ã€‚
 	const vector< Attribute* >* attributes() const;
 	Type type() const;
 private:

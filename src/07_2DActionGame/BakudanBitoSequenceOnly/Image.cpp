@@ -1,4 +1,4 @@
-#include "Image.h"
+ï»¿#include "Image.h"
 #include "File.h"
 
 #include "GameLib/Framework.h"
@@ -44,7 +44,7 @@ unsigned blend( unsigned src, unsigned dst ){
 }
 
 
-//ƒAƒ‹ƒtƒ@ƒuƒŒƒ“ƒh•t‚«
+//ã‚¢ãƒ«ãƒ•ã‚¡ãƒ–ãƒ¬ãƒ³ãƒ‰ä»˜ã
 void Image::draw(
 int dstX, 
 int dstY, 

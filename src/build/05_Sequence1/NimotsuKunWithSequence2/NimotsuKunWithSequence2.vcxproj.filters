@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Parent.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\StageSelect.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Title.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Clear.cpp">
+      <Filter>Sequence\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Loading.cpp">
+      <Filter>Sequence\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Menu.cpp">
+      <Filter>Sequence\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Parent.cpp">
+      <Filter>Sequence\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Play.cpp">
+      <Filter>Sequence\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Array2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Parent.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\StageSelect.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Title.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Clear.h">
+      <Filter>Sequence\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Loading.h">
+      <Filter>Sequence\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Menu.h">
+      <Filter>Sequence\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Parent.h">
+      <Filter>Sequence\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\05_Sequence1\NimotsuKunWithSequence2\Sequence\Game\Play.h">
+      <Filter>Sequence\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F47BF6AE-1CE4-328F-A88F-BA6B1DE72F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{42480150-B97E-3397-8D4C-0801F1FD169D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Game">
+      <UniqueIdentifier>{7C029E9A-1EB9-30F1-B879-D6306FD2966D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85F82CD5-A6DC-3831-9B32-EF5B52CDBD82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_DEBUGSCREEN_H
+﻿#ifndef INCLUDED_GAMELIB_DEBUGSCREEN_H
 #define INCLUDED_GAMELIB_DEBUGSCREEN_H
 
 #include <string>
@@ -32,11 +32,11 @@ public:
 	DebugScreen& endl();
 	DebugScreen& hex();
 	DebugScreen& dec();
-	//�F��ύX����B�A���t�@��0���Ə����255�ɂ���̂ŁA0xff4477�̂悤�ɓn���Ċy
+	//色を変更する。アルファが0だと勝手に255にするので、0xff4477のように渡せて楽
 	DebugScreen& setColor( unsigned );
-	//�ʒu���ړ�������Brow�͍s���̈ʒu��\���A���s�����row����n�܂�B
+	//位置を移動させる。rowは行頭の位置を表し、改行するとrowから始まる。
 	DebugScreen& setPosition( int row, int column );
-	//�F�A�ʒu�̌��ݒl�������炸�ɒP���ŕ`��
+	//色、位置の現在値をいじらずに単発で描画
 	void draw( int col, int row, const char* s, unsigned color = 0xffffffff );
 };
 

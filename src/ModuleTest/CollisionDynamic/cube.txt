@@ -1,4 +1,4 @@
-<VertexBuffer name="vb">
+﻿<VertexBuffer name="vb">
 	<Vertex position="-1, -1, -1" normal="-1, 0, 0"/>
 	<Vertex position="-1, -1, 1" normal="-1, 0, 0"/>
 	<Vertex position="-1, 1, -1" normal="-1, 0, 0"/>

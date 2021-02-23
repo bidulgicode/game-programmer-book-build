@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+﻿#include "GameLib/GameLib.h"
 #include "GameLib/Sound/Player.h"
 #include "GameLib/Sound/Wave.h"
 #include "Sound/PlayerImpl.h"
@@ -43,7 +43,7 @@ bool Player::isPlaying() const {
 }
 
 bool Player::write( int pos, const char* data, int size ){
-	if ( size == 0 ){ //��邱�ƂȂ�
+	if ( size == 0 ){ //やることなし
 		return true;
 	}
 	ASSERT( mImpl && "Sound::Player : This is empty object." );
@@ -51,7 +51,7 @@ bool Player::write( int pos, const char* data, int size ){
 }
 
 bool Player::fillSilence( int pos, int size ){
-	if ( size == 0 ){ //��邱�ƂȂ�
+	if ( size == 0 ){ //やることなし
 		return true;
 	}
 	ASSERT( mImpl && "Sound::Player : This is empty object." );

@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+﻿#include "GameLib/GameLib.h"
 #include "Library/NodeTemplate.h"
 
 NodeTemplate::NodeTemplate() :

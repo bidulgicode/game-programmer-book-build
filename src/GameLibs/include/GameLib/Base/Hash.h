@@ -1,9 +1,9 @@
-#ifndef INCLUDED_GAMELIB_HASH_H
+ï»¿#ifndef INCLUDED_GAMELIB_HASH_H
 #define INCLUDED_GAMELIB_HASH_H
 
 namespace GameLib{
 
-//”Ä—pƒnƒbƒVƒ…ŒvZƒNƒ‰ƒX
+//æ±ç”¨ãƒãƒƒã‚·ãƒ¥è¨ˆç®—ã‚¯ãƒ©ã‚¹
 template< class T > class Hash{
 public:
 	unsigned value( const T&, unsigned mod ) const;
@@ -11,7 +11,7 @@ public:
 };
 
 } //namespace GameLib
-#include "GameLib/Base/Impl/HashImpl.h" //’†g‚Í‚±‚Ì’†
+#include "GameLib/Base/Impl/HashImpl.h" //ä¸­èº«ã¯ã“ã®ä¸­
 
 #endif
 

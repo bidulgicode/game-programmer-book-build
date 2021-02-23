@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+﻿#include "GameLib/Framework.h"
 #include "PseudoXml/Element.h"
 #include "PseudoXml/Attribute.h"
 #include "Library/Texture.h"

@@ -1,0 +1,7 @@
+﻿  ConvertToCode
+  Framework.cpp
+Modules.lib(DSOUND.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR이(가) Modules.lib(DINPUT8.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Modules.lib(d3d9.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR이(가) Modules.lib(DINPUT8.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Modules.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR이(가) Modules.lib(DINPUT8.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+  SequenceFramework.vcxproj -> C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\Sequence1\lib\GameLib.lib
+  CopyToGameLib

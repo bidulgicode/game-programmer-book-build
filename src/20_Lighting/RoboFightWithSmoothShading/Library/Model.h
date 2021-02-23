@@ -1,4 +1,4 @@
-#ifndef INCLUDED_MODEL_H
+﻿#ifndef INCLUDED_MODEL_H
 #define INCLUDED_MODEL_H
 
 #include "Library/Vector3.h"

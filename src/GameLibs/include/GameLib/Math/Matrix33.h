@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_MATH_MATRIX33_H
+ï»¿#ifndef INCLUDED_GAMELIB_MATH_MATRIX33_H
 #define INCLUDED_GAMELIB_MATH_MATRIX33_H
 
 namespace GameLib{
@@ -29,9 +29,9 @@ public:
 	void operator*=( const Matrix33& );
 	void setMul( const Matrix33&, const Matrix33& );
 
-	///Š®‘S‚Éˆê’v‚µ‚Ä‚¢‚é‚©ƒ`ƒFƒbƒN
+	///å®Œå…¨ã«ä¸€è‡´ã—ã¦ã„ã‚‹ã‹ãƒã‚§ãƒƒã‚¯
 	bool operator==( const Matrix33& ) const;
-	///­‚µ‚Å‚àˆá‚¤‚Ì‚©‚ğƒ`ƒFƒbƒN
+	///å°‘ã—ã§ã‚‚é•ã†ã®ã‹ã‚’ãƒã‚§ãƒƒã‚¯
 	bool operator!=( const Matrix33& ) const;
 
 	float& operator()( int row, int col );

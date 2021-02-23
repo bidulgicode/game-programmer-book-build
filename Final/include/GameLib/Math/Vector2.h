@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_MATH_VECTOR2_H
+Ôªø#ifndef INCLUDED_GAMELIB_MATH_VECTOR2_H
 #define INCLUDED_GAMELIB_MATH_VECTOR2_H
 
 namespace GameLib{
@@ -29,7 +29,7 @@ public:
 	void setSub( const Vector2&, float );
 	void setMul( const Vector2&, const Vector2& );
 	void setMul( const Vector2&, float );
-	///É}ÉCÉiÉXÇ…ÇµÇƒäiî[
+	///„Éû„Ç§„Éä„Çπ„Å´„Åó„Å¶Ê†ºÁ¥ç
 	void setNeg( const Vector2& );
 
 	/// this = a + b * c

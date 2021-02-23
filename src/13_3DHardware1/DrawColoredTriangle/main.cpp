@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+﻿#include "GameLib/Framework.h"
 
 namespace GameLib{
 	void Framework::update(){

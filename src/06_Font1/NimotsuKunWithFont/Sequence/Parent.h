@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_PARENT_H
+﻿#ifndef INCLUDED_SEQUENCE_PARENT_H
 #define INCLUDED_SEQUENCE_PARENT_H
 
 namespace Sequence{

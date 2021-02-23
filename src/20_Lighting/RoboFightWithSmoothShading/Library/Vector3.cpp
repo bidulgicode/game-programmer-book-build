@@ -1,4 +1,4 @@
-#include "Library/Vector3.h"
+﻿#include "Library/Vector3.h"
 #include "GameLib/GameLibMath.h"
 using namespace GameLib;
 

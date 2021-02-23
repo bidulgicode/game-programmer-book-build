@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 set( PROJECT_NAME SolarSystem3 )
 set( SECTION_NAME 3DCollision1 )

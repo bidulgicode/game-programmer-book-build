@@ -1,4 +1,4 @@
-#include "XFile/Document.h"
+﻿#include "XFile/Document.h"
 #include "XFile/Parser.h"
 
 namespace XFile{

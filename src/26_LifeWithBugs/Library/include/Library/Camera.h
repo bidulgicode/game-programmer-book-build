@@ -1,4 +1,4 @@
-#ifndef INCLUDED_CAMERA_H
+﻿#ifndef INCLUDED_CAMERA_H
 #define INCLUDED_CAMERA_H
 
 #include "GameLib/Math/Vector3.h"

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GRAPHICS_DATABASE_H
+ï»¿#ifndef INCLUDED_GRAPHICS_DATABASE_H
 #define INCLUDED_GRAPHICS_DATABASE_H
 
 namespace GameLib{
@@ -6,7 +6,7 @@ namespace GameLib{
 		class Element;
 	}
 }
-using namespace GameLib; //–Ê“|‚È‚Ì‚ÅusingB‚ ‚Ü‚è‚æ‚­‚È‚¢B
+using namespace GameLib; //é¢å€’ãªã®ã§usingã€‚ã‚ã¾ã‚Šã‚ˆããªã„ã€‚
 
 class VertexBuffer;
 class IndexBuffer;
@@ -16,17 +16,17 @@ class Model;
 
 class GraphicsDatabase{
 public:
-	//ƒjƒZxml‚ÌElement‚©‚ç¶¬
+	//ãƒ‹ã‚»xmlã®Elementã‹ã‚‰ç”Ÿæˆ
 	GraphicsDatabase( GameLib::PseudoXml::Element& );
-	//ƒtƒ@ƒCƒ‹‚©‚ç¶¬
+	//ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ç”Ÿæˆ
 	GraphicsDatabase( const char* filename );
 	~GraphicsDatabase();
-	//æ“¾Œn(const”Å‚Å•Ô‚·)
+	//å–å¾—ç³»(constç‰ˆã§è¿”ã™)
 	ConstSharedPtr< VertexBuffer > getVertexBuffer( const char* name ) const;
 	ConstSharedPtr< IndexBuffer > getIndexBuffer( const char* name ) const;
 	ConstSharedPtr< Texture > getTexture( const char* name ) const;
 	ConstSharedPtr< Batch > getBatch( const char* name ) const;
-	//ƒ‚ƒfƒ‹¶¬
+	//ãƒ¢ãƒ‡ãƒ«ç”Ÿæˆ
 	Model* createModel( const char* batchName ) const;
 private:
 	void createFromElement( GameLib::PseudoXml::Element& );

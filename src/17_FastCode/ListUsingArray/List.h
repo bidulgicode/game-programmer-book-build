@@ -1,28 +1,28 @@
-#ifndef INCLUDED_LIST_H
+ï»¿#ifndef INCLUDED_LIST_H
 #define INCLUDED_LIST_H
 
-//‚í‚©‚è‚â‚·‚¢‚æ‚¤‚É’l‚Ídouble‚É‚µ‚Ä‚ ‚éBint‚Í‘S•”êŠ‚ğw‚·“Y‚¦šB
+//ã‚ã‹ã‚Šã‚„ã™ã„ã‚ˆã†ã«å€¤ã¯doubleã«ã—ã¦ã‚ã‚‹ã€‚intã¯å…¨éƒ¨å ´æ‰€ã‚’æŒ‡ã™æ·»ãˆå­—ã€‚
 class List{
 public:
 	List( int capacity );
 	~List();
-	//’Ç‰Á ‘S‚ÄêŠ‚ğ•Ô‚·
-	int addBefore( int position, double value ); //w’èêŠ‚Ì‘O‚É’Ç‰Á
-	int addAfter( int position, double value ); //w’èêŠ‚ÌŒã‚É’Ç‰Á
-	int addHead( double value ); //æ“ª’Ç‰Á
-	int addTail( double value ); //––”ö’Ç‰Á
-	//íœ
-	void remove( int position ); //w’èêŠ‚ğíœ
-	void removeHead(); //æ“ª‚ğíœ
-	void removeTail(); //––”ö‚ğíœ
-	//æ“¾Œn
+	//è¿½åŠ  å…¨ã¦å ´æ‰€ã‚’è¿”ã™
+	int addBefore( int position, double value ); //æŒ‡å®šå ´æ‰€ã®å‰ã«è¿½åŠ 
+	int addAfter( int position, double value ); //æŒ‡å®šå ´æ‰€ã®å¾Œã«è¿½åŠ 
+	int addHead( double value ); //å…ˆé ­è¿½åŠ 
+	int addTail( double value ); //æœ«å°¾è¿½åŠ 
+	//å‰Šé™¤
+	void remove( int position ); //æŒ‡å®šå ´æ‰€ã‚’å‰Šé™¤
+	void removeHead(); //å…ˆé ­ã‚’å‰Šé™¤
+	void removeTail(); //æœ«å°¾ã‚’å‰Šé™¤
+	//å–å¾—ç³»
 	double value( int position ) const;
 	int next( int position ) const;
 	int previous( int position ) const;
 	int first() const;
 	int last() const;
 private:
-	//3‚Â”z—ñ‚ğ‚Â‚Ì‚à–Ê“|‚È‚Ì‚Å\‘¢‘Ì‚É
+	//3ã¤é…åˆ—ã‚’æŒã¤ã®ã‚‚é¢å€’ãªã®ã§æ§‹é€ ä½“ã«
 	struct Node{
 		int mNext;
 		int mPrev;

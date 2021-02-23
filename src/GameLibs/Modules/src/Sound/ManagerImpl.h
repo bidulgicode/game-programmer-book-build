@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_SOUND_MANAGERIMPL_H
+Ôªø#ifndef INCLUDED_GAMELIB_SOUND_MANAGERIMPL_H
 #define INCLUDED_GAMELIB_SOUND_MANAGERIMPL_H
 
 #include "GameLib/GameLib.h"
@@ -23,14 +23,14 @@ public:
 		desc.dwSize = sizeof( DSBUFFERDESC );
 		desc.dwFlags = DSBCAPS_CTRLVOLUME | DSBCAPS_PRIMARYBUFFER;
 
-		//ÉvÉâÉCÉ}ÉäÉoÉbÉtÉ@ÉtÉHÅ[É}ÉbÉgïœçX
+		//„Éó„É©„Ç§„Éû„É™„Éê„ÉÉ„Éï„Ç°„Éï„Ç©„Éº„Éû„ÉÉ„ÉàÂ§âÊõ¥
 		hr = mDirectSound->CreateSoundBuffer( &desc, &mPrimaryBuffer, NULL );
 		STRONG_ASSERT( SUCCEEDED( hr ) );
 		WAVEFORMATEX format;
 		ZeroMemory( &format, sizeof( PCMWAVEFORMAT ) );
 		format.wBitsPerSample = 16;
 		format.wFormatTag = WAVE_FORMAT_PCM;
-		format.nChannels = 1; //ÉÇÉmÉâÉãÇ≈Ç¢Ç¢Ç‚ÅB
+		format.nChannels = 1; //„É¢„Éé„É©„É´„Åß„ÅÑ„ÅÑ„ÇÑ„ÄÇ
 		format.nSamplesPerSec = 44100;
 		format.nBlockAlign = format.nChannels * format.wBitsPerSample / 8;
 		format.nAvgBytesPerSec = format.nSamplesPerSec * format.nBlockAlign;

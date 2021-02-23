@@ -1,4 +1,4 @@
-#include <cmath>
+﻿#include <cmath>
 
 namespace {
 	const double r2d = 180.0 / 3.1415926535897932384626433832795;

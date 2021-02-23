@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\NimotsuKunAlphaBlend\NimotsuKunAlphaBlend.vcxproj">
+      <Project>{B5903A68-5022-3E5F-89E1-0D458892A00D}</Project>
+      <Name>NimotsuKunAlphaBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\NimotsuKunAlphaTest\NimotsuKunAlphaTest.vcxproj">
+      <Project>{818D86C4-B63E-3B60-A318-72B234B4B49C}</Project>
+      <Name>NimotsuKunAlphaTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\NimotsuKunImage\NimotsuKunImage.vcxproj">
+      <Project>{98A2CB6A-9363-3B52-97D0-5118CC53B6E2}</Project>
+      <Name>NimotsuKunImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImage\displayImage.vcxproj">
+      <Project>{D328BFCC-11BF-3A16-A982-0743C37F2B7E}</Project>
+      <Name>displayImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImageAdditionalBlend\displayImageAdditionalBlend.vcxproj">
+      <Project>{F4EE38C7-BC8F-3820-B816-022DD9C35ADB}</Project>
+      <Name>displayImageAdditionalBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImageAlphaBlend\displayImageAlphaBlend.vcxproj">
+      <Project>{B3DA2254-1A99-31E2-A4CD-CEC00495B00E}</Project>
+      <Name>displayImageAlphaBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImageAlphaTest\displayImageAlphaTest.vcxproj">
+      <Project>{75DA26D5-4ADB-3A0E-8AE2-1A9897DA5CED}</Project>
+      <Name>displayImageAlphaTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImagePartially\displayImagePartially.vcxproj">
+      <Project>{D2EC2C74-F816-3B6F-9D1D-FA2BC7AE7EEA}</Project>
+      <Name>displayImagePartially</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,10 +1,10 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 using namespace GameLib;
 
 #include "Game/StaticObject.h"
 #include "Image.h"
 
-//ƒfƒtƒHƒ‹ƒg•ÇB•Ç‚É‚µ‚Ä‚¨‚¯‚Î”²‚¯‚é‚±‚Æ‚Í‚È‚¢B
+//ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå£ã€‚å£ã«ã—ã¦ãŠã‘ã°æŠœã‘ã‚‹ã“ã¨ã¯ãªã„ã€‚
 StaticObject::StaticObject() : mFlags( 0 ){
 }
 
@@ -36,9 +36,9 @@ void StaticObject::draw( int x, int y, const Image* image ) const {
 		floor = true;
 	}
 	image->draw( x*16, y*16, srcX, srcY, 16, 16 );
-	//ƒIƒvƒVƒ‡ƒ“•`‰æ
+	//ã‚ªãƒ—ã‚·ãƒ§ãƒ³æç”»
 	if ( floor ){
-		srcX = -1; //”Ô•º
+		srcX = -1; //ç•ªå…µ
 		if ( mFlags & FLAG_ITEM_BOMB ){
 			srcX = 32;
 			srcY = 0;

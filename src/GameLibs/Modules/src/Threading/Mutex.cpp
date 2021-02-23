@@ -1,4 +1,4 @@
-#include <windows.h>
+ï»¿#include <windows.h>
 #undef min
 #undef max
 #include "GameLib/GameLib.h"
@@ -8,8 +8,8 @@
 namespace GameLib{
 namespace Threading{
 
-//‘½dƒAƒ“ƒƒbƒNA‘½dƒƒbƒN“™X‚ğŒŸo‚·‚é‚½‚ß‚ÉA’†g‚ÍƒZƒ}ƒtƒH‚É‚µ‚Ä‚¨‚­B
-//Release”Å‚ÅCriticalSection‚ÉØ‚è‘Ö‚¦‚é‚Ì‚à‚¢‚¢‚©‚à‚µ‚ê‚È‚¢B
+//å¤šé‡ã‚¢ãƒ³ãƒ­ãƒƒã‚¯ã€å¤šé‡ãƒ­ãƒƒã‚¯ç­‰ã€…ã‚’æ¤œå‡ºã™ã‚‹ãŸã‚ã«ã€ä¸­èº«ã¯ã‚»ãƒãƒ•ã‚©ã«ã—ã¦ãŠãã€‚
+//Releaseç‰ˆã§CriticalSectionã«åˆ‡ã‚Šæ›¿ãˆã‚‹ã®ã‚‚ã„ã„ã‹ã‚‚ã—ã‚Œãªã„ã€‚
 class Mutex::Impl : public ReferenceType{
 public:
 	Impl() : mHandle( 0 ){

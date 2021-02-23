@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 
 #include "Stage.h"
 #include "Triangle.h"
@@ -14,7 +14,7 @@ Stage::Stage() : mDatabase( 0 ), mModel( 0 ), mTriangles( 0 ){
 	mDatabase = new GraphicsDatabase( "stage.txt" );
 	mModel = mDatabase->createModel( "stage" );
 
-	//Õ“Ëˆ——pƒf[ƒ^ì¬
+	//è¡çªå‡¦ç†ç”¨ãƒ‡ãƒ¼ã‚¿ä½œæˆ
 	const Batch* batch = mModel->batch();
 	const IndexBuffer* ib = batch->indexBuffer();
 	const VertexBuffer* vb = batch->vertexBuffer();

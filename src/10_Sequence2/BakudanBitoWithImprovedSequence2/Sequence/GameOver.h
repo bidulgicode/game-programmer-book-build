@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_GAME_OVER_H
+﻿#ifndef INCLUDED_SEQUENCE_GAME_OVER_H
 #define INCLUDED_SEQUENCE_GAME_OVER_H
 
 #include "Sequence/Child.h"

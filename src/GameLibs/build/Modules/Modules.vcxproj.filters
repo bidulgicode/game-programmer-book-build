@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\DebugStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\Halt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\IBinaryStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\OStringStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\PrimeNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\RefString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\Compressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\Conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\OutFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\InFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix23.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix33.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix34.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Joystick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\DocumentImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Tag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Attribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\PrimitiveRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\StringRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\TreeTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\AnimationNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Batch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\CollisionDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\CollisionMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\Wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Semaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\OutFileImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\Archive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\InFileImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\ManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\TextureImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\VertexBufferImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\VertexLightingVsGenerated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\IndexBufferImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\ManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\NoLightingVsGenerated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\PixelLightingPsGenerated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\PixelLightingVsGenerated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\JoystickImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\ManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\DocumentImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\ElementImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\AttributeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\NodeTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\TreeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\TreeTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\AnimationImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\AnimationNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\BatchImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\ContainerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\FontImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\FontImplBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\FontImplOS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\ModelImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\PlayerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\WaveImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\ManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\ManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{836BA361-DD54-3BB6-8D6C-7D79E5AB6C8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B2926334-3210-31C4-B717-9B45B37BC256}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

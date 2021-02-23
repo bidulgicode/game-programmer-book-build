@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 #include "File.h"
 #include <fstream>
 using namespace std;
@@ -12,7 +12,7 @@ File::File( const char* filename ) : mSize( 0 ), mData( 0 ){
 		mData = new char[ mSize ];
 		in.read( mData, mSize );
 	}else{
-		HALT( "can't open file." ); //’v–½‚¾‚©‚ç~‚ß‚éB
+		HALT( "can't open file." ); //è‡´å‘½å‚·ã ã‹ã‚‰æ­¢ã‚ã‚‹ã€‚
 	}
 }
 
@@ -28,7 +28,7 @@ const char* File::getData() const {
 	return mData;
 }
 
-//unsignedæ‚èo‚µ
+//unsignedå–ã‚Šå‡ºã—
 unsigned File::getUnsigned( int p ) const {
 	const unsigned char* up;
 	up = reinterpret_cast< const unsigned char* >( mData );

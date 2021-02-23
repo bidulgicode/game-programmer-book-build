@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6E3387B2-E593-3263-AD4F-5BB94775EFDE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\2DActionGame\2DActionGameFramework.vcxproj">
+      <Project>{C0AB28CD-CB12-30E5-93E6-3775037DC95A}</Project>
+      <Name>2DActionGameFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\2DGraphics1\2DGraphicsFramework.vcxproj">
+      <Project>{18CDC3FC-6A01-3469-8758-B3D017EDEE7E}</Project>
+      <Name>2DGraphicsFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\2DTransform\2DTransformFramework.vcxproj">
+      <Project>{C2ABCE32-67A8-3FA9-93B5-EED4B1F15D8A}</Project>
+      <Name>2DTransformFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\3DCollision1\3DCollisionFramework.vcxproj">
+      <Project>{0B60FB5D-995A-3B38-A1EA-7A080AD98271}</Project>
+      <Name>3DCollisionFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\3DGraphics1\3DGraphicsFramework.vcxproj">
+      <Project>{DE9E68BC-67C2-3C56-9B23-B1ED309B17A2}</Project>
+      <Name>3DGraphicsFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\3DHardware1\3DHardwareFramework.vcxproj">
+      <Project>{46FDFA5B-4885-3DC9-BEA5-B2E9EEDF9A54}</Project>
+      <Name>3DHardwareFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\Final\FinalFramework.vcxproj">
+      <Project>{30577E52-D880-326B-91E9-6D11597A4EF9}</Project>
+      <Name>FinalFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\InputDevices\InputDevicesFramework.vcxproj">
+      <Project>{85DECD95-6755-3F30-9E67-EA4D0CBB393F}</Project>
+      <Name>InputDevicesFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\Loading\LoadingFramework.vcxproj">
+      <Project>{69B08255-3BF3-3458-A53B-D721C1AAFF19}</Project>
+      <Name>LoadingFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\Modules\Modules.vcxproj">
+      <Project>{98429474-C210-3F1B-BEF3-E80CD1E7795D}</Project>
+      <Name>Modules</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\RealTime\RealtimeFramework.vcxproj">
+      <Project>{CB8DFB5D-449A-3FC2-ADFB-BF9F9163A94D}</Project>
+      <Name>RealtimeFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\Sequence1\SequenceFramework.vcxproj">
+      <Project>{27385E23-FA45-363F-86C9-47A2207C350B}</Project>
+      <Name>SequenceFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\Sound1\Sound1Framework.vcxproj">
+      <Project>{9BBC18F5-AC8A-3D35-8FDE-3BB54E21ED15}</Project>
+      <Name>Sound1Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\build\Sound2\Sound2Framework.vcxproj">
+      <Project>{854C4E64-DCCF-34DD-94BE-F54E1CA15DF9}</Project>
+      <Name>Sound2Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

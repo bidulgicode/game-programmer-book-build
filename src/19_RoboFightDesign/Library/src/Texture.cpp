@@ -1,11 +1,11 @@
-#include "Library/Texture.h"
+ï»¿#include "Library/Texture.h"
 #include "GameLib/Framework.h"
 #include "GameLib/PseudoXml/Element.h"
 #include "GameLib/PseudoXml/Attribute.h"
 using namespace GameLib::PseudoXml;
 
 Texture::Texture( Element& e ) : mTexture( 0 ){
-	//–¼‘O‚â‚çƒtƒ@ƒCƒ‹–¼‚â‚ç‚ğ”²‚­
+	//åå‰ã‚„ã‚‰ãƒ•ã‚¡ã‚¤ãƒ«åã‚„ã‚‰ã‚’æŠœã
 	int an = e.attributeNumber();
 	for ( int i = 0; i < an; ++i ){
 		Attribute a = e.attribute( i );

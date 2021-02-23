@@ -1,4 +1,4 @@
-#ifndef INCLUDED_NODE_TEMPLATE_H
+ï»¿#ifndef INCLUDED_NODE_TEMPLATE_H
 #define INCLUDED_NODE_TEMPLATE_H
 
 namespace GameLib{
@@ -27,7 +27,7 @@ public:
 	const Vector3* scale() const;
 	const string* name() const;
 private:
-	friend class TreeTemplate; //TreeTemplate‚©‚ç‚ÍƒAƒNƒZƒX‚µ•ú‘è
+	friend class TreeTemplate; //TreeTemplateã‹ã‚‰ã¯ã‚¢ã‚¯ã‚»ã‚¹ã—æ”¾é¡Œ
 
 	int mChild;
 	int mBrother;

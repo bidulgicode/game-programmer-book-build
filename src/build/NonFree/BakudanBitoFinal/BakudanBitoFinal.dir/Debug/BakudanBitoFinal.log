@@ -1,0 +1,24 @@
+﻿  File.cpp
+  Image.cpp
+  Matrix23.cpp
+  Pad.cpp
+  SoundManager.cpp
+  Vector2.cpp
+  main.cpp
+  Ending.cpp
+  GameOver.cpp
+  Title.cpp
+  Clear.cpp
+  Failure.cpp
+  Judge.cpp
+  Pause.cpp
+  Play.cpp
+  Ready.cpp
+  DynamicObject.cpp
+  State.cpp
+  StaticObject.cpp
+  코드를 생성하고 있습니다...
+  Parent.cpp
+  Parent.cpp
+  BakudanBitoFinal.vcxproj -> C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\NonFree\BakudanBitoFinal\Debug\BakudanBitoFinal.exe
+  CopyResource

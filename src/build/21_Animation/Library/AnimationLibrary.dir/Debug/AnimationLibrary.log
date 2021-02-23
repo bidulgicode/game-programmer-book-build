@@ -1,0 +1,21 @@
+﻿  Animation.cpp
+  AnimationNode.cpp
+  Batch.cpp
+  Camera.cpp
+  Curve.cpp
+  File.cpp
+  GraphicsDatabase.cpp
+  IndexBuffer.cpp
+  Matrix34.cpp
+  Matrix44.cpp
+  Model.cpp
+  Node.cpp
+  NodeTemplate.cpp
+  Texture.cpp
+  Tree.cpp
+  TreeTemplate.cpp
+  Vector2.cpp
+  Vector3.cpp
+  VertexBuffer.cpp
+  코드를 생성하고 있습니다...
+  AnimationLibrary.vcxproj -> C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\21_Animation\Library\lib\Library_d.lib

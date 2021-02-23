@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 #include "Library/Vector3.h"
 #include "Library/Vector2.h"
 #include "Library/Matrix44.h"
@@ -43,27 +43,27 @@ namespace GameLib{
 		if ( gFirstFrame ){
 			setFrameRate( 60 );
 			gFirstFrame = false;
-			//’¸“_ƒoƒbƒtƒ@¶¬
+			//é ‚ç‚¹ãƒãƒƒãƒ•ã‚¡ç”Ÿæˆ
 			gVertexBuffer = new VertexBuffer( 4 );
 			for ( int i = 0; i < 4; ++i ){
 				gVertexBuffer->setPosition( i, gPositions[ i ] );
 				gVertexBuffer->setUV( i, gUVs[ i ] );
 			}
-			//ƒCƒ“ƒfƒNƒXƒoƒbƒtƒ@¶¬
+			//ã‚¤ãƒ³ãƒ‡ã‚¯ã‚¹ãƒãƒƒãƒ•ã‚¡ç”Ÿæˆ
 			gIndexBuffer = new IndexBuffer( 6 );
 			for ( int i = 0; i < 6; ++i ){
 				gIndexBuffer->setIndex( i, gIndices[ i ] );
 			}
-			//ƒeƒNƒXƒ`ƒƒ¶¬
+			//ãƒ†ã‚¯ã‚¹ãƒãƒ£ç”Ÿæˆ
 			createTexture( &gTexture, "grid.tga" );
-			//ƒoƒbƒ`¶¬
+			//ãƒãƒƒãƒç”Ÿæˆ
 			gBatch = new Batch( gVertexBuffer, gIndexBuffer, gTexture, BLEND_OPAQUE );
-			//ƒ‚ƒfƒ‹¶¬
+			//ãƒ¢ãƒ‡ãƒ«ç”Ÿæˆ
 			gModel = new Model( gBatch );
-			//ƒJƒƒ‰¶¬
+			//ã‚«ãƒ¡ãƒ©ç”Ÿæˆ
 			gCamera = new Camera();
 		}
-		//ƒJƒƒ‰XV
+		//ã‚«ãƒ¡ãƒ©æ›´æ–°
 		gCamera->setPosition( Vector3(
 			sin( gCount ) * 20.0,
 			10.0,
@@ -71,15 +71,15 @@ namespace GameLib{
 
 		Matrix44 pvm;
 		gCamera->createPerspectiveViewMatrix( &pvm );
-		//ƒ‚ƒfƒ‹‚Ì‰ñ“]XV
+		//ãƒ¢ãƒ‡ãƒ«ã®å›è»¢æ›´æ–°
 		gModel->setAngle( Vector3( gCount, gCount * 2, gCount * 3 ) );
-		//•`‰æ
+		//æç”»
 		gModel->draw( pvm );
 
 		++gCount;
 
-		//Œãn––Bì‚Á‚½‡”Ô‚Æ‹t‚ÉÁ‚·‚Ì‚ª’Ê‚Ì‹Z‚¾B
-		//g‚Á‚Ä‚¢‚é•û‚ğæ‚ÉÁ‚µ‚ÄAg‚í‚ê‚Ä‚¢‚é‚à‚Ì‚ÍŒã‚ÉÁ‚·‚×‚«‚Å‚ ‚éB
+		//å¾Œå§‹æœ«ã€‚ä½œã£ãŸé †ç•ªã¨é€†ã«æ¶ˆã™ã®ãŒé€šã®æŠ€ã ã€‚
+		//ä½¿ã£ã¦ã„ã‚‹æ–¹ã‚’å…ˆã«æ¶ˆã—ã¦ã€ä½¿ã‚ã‚Œã¦ã„ã‚‹ã‚‚ã®ã¯å¾Œã«æ¶ˆã™ã¹ãã§ã‚ã‚‹ã€‚
 		if ( isEndRequested() ){
 			SAFE_DELETE( gCamera );
 			SAFE_DELETE( gModel );

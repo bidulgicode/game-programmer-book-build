@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_GAME_LOADING_H
+ï»¿#ifndef INCLUDED_SEQUENCE_GAME_LOADING_H
 #define INCLUDED_SEQUENCE_GAME_LOADING_H
 
 class Image;
@@ -15,7 +15,7 @@ public:
 private:
 	Image* mImage;
 	int mCount;
-	bool mStarted; //ƒ[ƒhŠJn—v¿‚ğo‚µ‚½‚©
+	bool mStarted; //ãƒ­ãƒ¼ãƒ‰é–‹å§‹è¦è«‹ã‚’å‡ºã—ãŸã‹
 };
 
 } //namespace Game

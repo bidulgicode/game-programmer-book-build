@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+﻿#include "GameLib/GameLib.h"
 #include "GameLib/Scene/Font.h"
 #include "Scene/FontImpl.h"
 #include "Scene/FontImplOS.h"

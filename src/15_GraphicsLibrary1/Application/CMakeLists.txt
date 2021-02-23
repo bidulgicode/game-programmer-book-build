@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 set( PROJECT_NAME Application )
 set( SECTION_NAME 3DGraphics1 )

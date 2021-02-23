@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_GRAPHICS_VERTEX_H
+Ôªø#ifndef INCLUDED_GAMELIB_GRAPHICS_VERTEX_H
 #define INCLUDED_GAMELIB_GRAPHICS_VERTEX_H
 
 #include "GameLib/Math/Vector4.h"
@@ -11,10 +11,10 @@ namespace Graphics{
 
 class Vertex{
 public:
-	Vector4 mPosition; //à íu
-	Vector3 mNormal; //ñ@ê¸
-	unsigned mColor; //í∏ì_êF
-	Vector2 mUv; //ÉeÉNÉXÉ`ÉÉç¿ïW
+	Vector4 mPosition; //‰ΩçÁΩÆ
+	Vector3 mNormal; //Ê≥ïÁ∑ö
+	unsigned mColor; //È†ÇÁÇπËâ≤
+	Vector2 mUv; //„ÉÜ„ÇØ„Çπ„ÉÅ„É£Â∫ßÊ®ô
 };
 
 } //namespace Graphics

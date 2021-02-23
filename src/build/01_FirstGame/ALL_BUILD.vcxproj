@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKun\NimotsuKun.vcxproj">
+      <Project>{A73B1A9E-307A-3AC7-82C0-28894881552D}</Project>
+      <Name>NimotsuKun</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKun2\NimotsuKun2.vcxproj">
+      <Project>{5FF790A7-AD72-3076-8475-593EA7D31E1D}</Project>
+      <Name>NimotsuKun2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKunBitOperation\NimotsuKunBitOperation.vcxproj">
+      <Project>{DCBA6C50-5BD7-3175-8D21-04EC114C478F}</Project>
+      <Name>NimotsuKunBitOperation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotsuKunBox\NimotsuKunBox.vcxproj">
+      <Project>{A05DD606-25A2-3D8F-8494-C255D21D8AE3}</Project>
+      <Name>NimotsuKunBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotsuKunBoxWithTermination\NimotsuKunBoxWithTermination.vcxproj">
+      <Project>{FF95C439-C3F0-3271-ADB2-DC5A7EAE028B}</Project>
+      <Name>NimotsuKunBoxWithTermination</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotuKunDot\NimotsuKunDot.vcxproj">
+      <Project>{C4A1ACD3-A809-36F4-B87F-0BBF88848B8F}</Project>
+      <Name>NimotsuKunDot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKunRawMemory\NimotsuKunRawMemory.vcxproj">
+      <Project>{C019D127-9B03-398F-B642-B54FF355F54C}</Project>
+      <Name>NimotsuKunRawMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotsuKunTextOnly\NimotsuKunTextOnly.vcxproj">
+      <Project>{DCEEA81A-FD4D-30A2-9DCF-CF87A95A7A31}</Project>
+      <Name>NimotsuKunTextOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\drawPixels\drawPixels.vcxproj">
+      <Project>{4417FC36-E741-3438-9EC7-89377DAD6328}</Project>
+      <Name>drawPixels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

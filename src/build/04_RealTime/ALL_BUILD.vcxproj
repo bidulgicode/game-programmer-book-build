@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunConstantFrameRate\NimotsuKunConstantFrameRate.vcxproj">
+      <Project>{A404E2EC-A145-32E4-9FED-5A167D24F08C}</Project>
+      <Name>NimotsuKunConstantFrameRate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunRealTime\NimotsuKunRealTime.vcxproj">
+      <Project>{62774C19-58F2-3608-A843-8A3D24844FB5}</Project>
+      <Name>NimotsuKunRealTime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunRealTime2\NimotsuKunRealTime2.vcxproj">
+      <Project>{22FF87BB-FD5B-30C2-B9BF-B4F1A22E5D59}</Project>
+      <Name>NimotsuKunRealTime2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunSmoothMove\NimotsuKunSmoothMove.vcxproj">
+      <Project>{6DAFEC4D-9BE5-3696-80E4-CCB7B8733035}</Project>
+      <Name>NimotsuKunSmoothMove</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunVariableFrameRate\NimotsuKunVariableFrameRate.vcxproj">
+      <Project>{2D382711-BB0F-3C64-A49D-C0526A325D83}</Project>
+      <Name>NimotsuKunVariableFrameRate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\Tearing\Tearing.vcxproj">
+      <Project>{38621FFC-AA89-306F-87D8-BD1DC2AEEFB9}</Project>
+      <Name>Tearing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_GAME_CHILD_H
+Ôªø#ifndef INCLUDED_SEQUENCE_GAME_CHILD_H
 #define INCLUDED_SEQUENCE_GAME_CHILD_H
 
 namespace Sequence{
@@ -7,7 +7,7 @@ class Parent;
 
 class Child{
 public:
-	virtual ~Child(){} //Ç»Ç…Ç‡ÇµÇ»Ç¢ÇÃÇ≈Ç±ÇÍÇ≈Ç¢Ç¢
+	virtual ~Child(){} //„Å™„Å´„ÇÇ„Åó„Å™„ÅÑ„ÅÆ„Åß„Åì„Çå„Åß„ÅÑ„ÅÑ
 	virtual Child* update( Parent* ) = 0;
 };
 

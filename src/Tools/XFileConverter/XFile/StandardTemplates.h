@@ -1,4 +1,4 @@
-//mviewer‚ª“f‚¢‚½.x‚©‚çƒeƒ“ƒvƒŒ[ƒg•”‚ğƒRƒs[B‚Ü‚¸‚±‚¢‚Â‚ç‚ğ‰ğß‚·‚éB
+ï»¿//mviewerãŒåã„ãŸ.xã‹ã‚‰ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆéƒ¨ã‚’ã‚³ãƒ”ãƒ¼ã€‚ã¾ãšã“ã„ã¤ã‚‰ã‚’è§£é‡ˆã™ã‚‹ã€‚
 const char gStandardTemplates[] = "\
 template AnimTicksPerSecond {\
  <9e415a43-7ba6-4a73-8743-b73d47e88476>\

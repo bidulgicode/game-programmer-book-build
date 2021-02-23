@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 using namespace GameLib;
 
 #include "State.h"
@@ -6,27 +6,27 @@ using namespace GameLib;
 #include "Image.h"
 #include "Sequence/Parent.h"
 
-//ƒOƒ[ƒoƒ‹•Ï”
-Sequence::Parent* gRootSequence = 0; //ª‚Á‚±ƒV[ƒPƒ“ƒX
-int gCounter = 0; //ƒƒCƒ“ƒ‹[ƒv‚ğ‰ñ‚Á‚½‰ñ”‚ğ”‚¦‚éƒJƒEƒ“ƒ^
+//ã‚°ãƒ­ãƒ¼ãƒãƒ«å¤‰æ•°
+Sequence::Parent* gRootSequence = 0; //æ ¹ã£ã“ã‚·ãƒ¼ã‚±ãƒ³ã‚¹
+int gCounter = 0; //ãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒ—ã‚’å›ã£ãŸå›æ•°ã‚’æ•°ãˆã‚‹ã‚«ã‚¦ãƒ³ã‚¿
 
-//ƒ†[ƒUÀ‘•ŠÖ”B’†g‚ÍmainLoop()‚ÉŠÛ“Š‚°
+//ãƒ¦ãƒ¼ã‚¶å®Ÿè£…é–¢æ•°ã€‚ä¸­èº«ã¯mainLoop()ã«ä¸¸æŠ•ã’
 namespace GameLib{
 	void Framework::update(){
 		if ( !gRootSequence ){
 			gRootSequence = new Sequence::Parent();
 		}
-		//ƒtƒŒ[ƒ€ƒŒ[ƒg’²®
-		setFrameRate( 60 ); //ˆê‰ñŒÄ‚×‚Î‚¢‚¢‚Ì‚¾‚ª–Ê“|‚È‚Ì‚ÅŒÄ‚ñ‚Å‚µ‚Ü‚¤B
+		//ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¬ãƒ¼ãƒˆèª¿æ•´
+		setFrameRate( 60 ); //ä¸€å›å‘¼ã¹ã°ã„ã„ã®ã ãŒé¢å€’ãªã®ã§å‘¼ã‚“ã§ã—ã¾ã†ã€‚
 
-		if ( gCounter % 60 == 0 ){ //60ƒtƒŒ[ƒ€‚Éˆê‰ñƒtƒŒ[ƒ€ƒŒ[ƒg•\¦
+		if ( gCounter % 60 == 0 ){ //60ãƒ•ãƒ¬ãƒ¼ãƒ ã«ä¸€å›ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¬ãƒ¼ãƒˆè¡¨ç¤º
 			cout << " FrameRate:" << frameRate() << endl;
 		}
 		++gCounter;
 
 		gRootSequence->update();
 
-		//I—¹”»’è(q‚ª‰Ÿ‚³‚ê‚½‚©Aƒ}ƒEƒX‚Å~ƒ{ƒ^ƒ“‚ª’@‚©‚ê‚½‚©)
+		//çµ‚äº†åˆ¤å®š(qãŒæŠ¼ã•ã‚ŒãŸã‹ã€ãƒã‚¦ã‚¹ã§Ã—ãƒœã‚¿ãƒ³ãŒå©ã‹ã‚ŒãŸã‹)
 		if ( isKeyOn( 'q' ) ){
 			requestEnd();
 		}

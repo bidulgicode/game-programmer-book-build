@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_GAME_H
+ï»¿#ifndef INCLUDED_SEQUENCE_GAME_H
 #define INCLUDED_SEQUENCE_GAME_H
 
 class State;
@@ -15,10 +15,10 @@ class Play;
 
 class Parent{
 public:
-	typedef Sequence::Parent GrandParent; //‘c•ƒ
+	typedef Sequence::Parent GrandParent; //ç¥–çˆ¶
 	enum SeqID{
-		SEQ_STAGE_SELECT, //ãŠK‘w
-		SEQ_TITLE, //ãŠK‘w
+		SEQ_STAGE_SELECT, //ä¸Šéšå±¤
+		SEQ_TITLE, //ä¸Šéšå±¤
 		SEQ_CLEAR,
 		SEQ_MENU,
 		SEQ_PLAY,

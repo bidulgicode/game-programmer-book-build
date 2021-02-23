@@ -1,9 +1,9 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 #include "GameLib/Input/Keyboard.h"
 
 #include "Input/ManagerImpl.h"
 
-//ƒL[ƒ{[ƒh‚ÌÀ‘Ì‚Íƒ}ƒl[ƒWƒƒ‚Å‚ ‚éB
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã®å®Ÿä½“ã¯ãƒãƒãƒ¼ã‚¸ãƒ£ã§ã‚ã‚‹ã€‚
 namespace GameLib{
 namespace Input{
 

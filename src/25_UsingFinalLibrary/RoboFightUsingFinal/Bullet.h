@@ -1,4 +1,4 @@
-#ifndef INCLUDED_BULLET_H
+Ôªø#ifndef INCLUDED_BULLET_H
 #define INCLUDED_BULLET_H
 
 #include "GameLib/Scene/Container.h"
@@ -26,17 +26,17 @@ public:
 	const Vector3* position() const;
 	void update( const Vector3& enemyPos ); 
 	void draw() const;
-	bool isEmpty() const; //égÇ¡ÇƒÇ»ÇØÇÍÇŒtrueÅBmCount<0Ç≈îªíË
-	void die(); //íeè¡Ç¶Ç‹Ç∑
+	bool isEmpty() const; //‰Ωø„Å£„Å¶„Å™„Åë„Çå„Å∞true„ÄÇmCount<0„ÅßÂà§ÂÆö
+	void die(); //ÂºæÊ∂à„Åà„Åæ„Åô
 private:
 	GameLib::Scene::Model mModel;
-	int mCount; //-1Ç»ÇÁÇªÇÃíeÇÕãÛÇæÇ∆Ç¢Ç§Ç±Ç∆Ç…ÇµÇÊÇ§ÅB
-	bool mHoming; //í«îˆÇ∑ÇÈÅH
+	int mCount; //-1„Å™„Çâ„Åù„ÅÆÂºæ„ÅØÁ©∫„Å†„Å®„ÅÑ„ÅÜ„Åì„Å®„Å´„Åó„Çà„ÅÜ„ÄÇ
+	bool mHoming; //ËøΩÂ∞æ„Åô„ÇãÔºü
 
-	static const float mHomingX; //äpìxóUì±ê´î\X
-	static const float mHomingY; //äpìxóUì±ê´î\Y
-	static const int mLife; //íeéıñΩ
-	static const float mSpeed; //íeÇÃë¨ìx
+	static const float mHomingX; //ËßíÂ∫¶Ë™òÂ∞éÊÄßËÉΩX
+	static const float mHomingY; //ËßíÂ∫¶Ë™òÂ∞éÊÄßËÉΩY
+	static const int mLife; //ÂºæÂØøÂëΩ
+	static const float mSpeed; //Âºæ„ÅÆÈÄüÂ∫¶
 };
 
 #endif

@@ -1,4 +1,4 @@
-#include "Image.h"
+ï»¿#include "Image.h"
 #include "File.h"
 
 #include "GameLib/Framework.h"
@@ -30,7 +30,7 @@ int Image::height() const {
 	return mHeight;
 }
 
-//ƒAƒ‹ƒtƒ@ƒuƒŒƒ“ƒh•t‚«
+//ã‚¢ãƒ«ãƒ•ã‚¡ãƒ–ãƒ¬ãƒ³ãƒ‰ä»˜ã
 void Image::draw(
 int dstX, 
 int dstY, 

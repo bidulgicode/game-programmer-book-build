@@ -1,4 +1,4 @@
-#ifndef INCLUDED_VECTOR2_H
+﻿#ifndef INCLUDED_VECTOR2_H
 #define INCLUDED_VECTOR2_H
 
 #include <cmath>

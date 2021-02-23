@@ -1,4 +1,4 @@
-#ifndef INCLUDED_TEXTURE_H
+ï»¿#ifndef INCLUDED_TEXTURE_H
 #define INCLUDED_TEXTURE_H
 
 #include "GameLib/Graphics/Texture.h"
@@ -17,7 +17,7 @@ public:
 	Texture( GameLib::PseudoXml::Element& );
 	Texture( const char* filename );
 	~Texture();
-	void set() const; //ƒn[ƒhƒEƒFƒA‚ÉƒZƒbƒg
+	void set() const; //ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã«ã‚»ãƒƒãƒˆ
 	const string* name() const;
 private:
 	GameLib::Graphics::Texture mTexture;

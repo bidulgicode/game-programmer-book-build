@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_THREADING_EVENT_H
+ï»¿#ifndef INCLUDED_GAMELIB_THREADING_EVENT_H
 #define INCLUDED_GAMELIB_THREADING_EVENT_H
 
 namespace GameLib{
@@ -7,13 +7,13 @@ namespace Threading{
 class Event{
 public:
 	static Event create( bool initialiState = false );
-	///true‚É‚³‚ê‚é‚Ì‚ğ‘Ò‚Â
+	///trueã«ã•ã‚Œã‚‹ã®ã‚’å¾…ã¤
 	void wait() const;
-	///true‚É‚·‚é
+	///trueã«ã™ã‚‹
 	void set();
-	///false‚É‚·‚é
+	///falseã«ã™ã‚‹
 	void reset();
-	///true?‚»‚ê‚Æ‚àfalse?
+	///true?ãã‚Œã¨ã‚‚false?
 	bool isSet() const;
 
 	Event();

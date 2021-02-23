@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\18_3DCollision1\Library\3DCollisionLibrary.vcxproj">
+      <Project>{CBEBBCC5-9954-33E5-B50C-B052DAF45670}</Project>
+      <Name>3DCollisionLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\3DRotation\3DRotation.vcxproj">
+      <Project>{072BC063-0A7E-3D55-891E-F3DEA16E4AF3}</Project>
+      <Name>3DRotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\AlphaBlend\AlphaBlend.vcxproj">
+      <Project>{20C960E2-1D64-383B-BB72-D7A4436E2E6B}</Project>
+      <Name>AlphaBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\AlphaBlendAndZTest\AlphaBlendAndZTest.vcxproj">
+      <Project>{5E3623C9-1910-3BF4-AB30-0363B622028D}</Project>
+      <Name>AlphaBlendAndZTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\Library\AnimationLibrary.vcxproj">
+      <Project>{F916CB5F-0F41-3B7D-B971-BD998F302D77}</Project>
+      <Name>AnimationLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\25_UsingFinalLibrary\AntiAlias\AntiAlias.vcxproj">
+      <Project>{36D3AC92-C630-30BB-BA89-E6022D430738}</Project>
+      <Name>AntiAlias</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\15_GraphicsLibrary1\Application\Application.vcxproj">
+      <Project>{6BEE9316-A6D9-3228-89BE-292B16B41A45}</Project>
+      <Name>Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\Archiver1\Archiver1.vcxproj">
+      <Project>{F7328FFC-73CD-328D-A750-86ED2D8DD273}</Project>
+      <Name>Archiver1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\07_2DActionGame\BakudanBitoBackgroundOnly\BakudanBitoBackgroundOnly.vcxproj">
+      <Project>{2E247DC6-D0AE-39C8-B4F6-36F5E4355017}</Project>
+      <Name>BakudanBitoBackgroundOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\NonFree\BakudanBitoFinal\BakudanBitoFinal.vcxproj">
+      <Project>{30E4F9E1-2779-38F3-B80B-3282AC677301}</Project>
+      <Name>BakudanBitoFinal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\07_2DActionGame\BakudanBitoSequenceOnly\BakudanBitoSequenceOnly.vcxproj">
+      <Project>{D34D8853-9161-3C54-B9FC-F42F6EFA499E}</Project>
+      <Name>BakudanBitoSequenceOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\BakudanBitoUsingHardware\BakudanBitoUsingHardware.vcxproj">
+      <Project>{E96880AD-8193-3525-AFD2-FFA19C982698}</Project>
+      <Name>BakudanBitoUsingHardware</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\BakudanBitoWithCollision\BakudanBitoWithCollision.vcxproj">
+      <Project>{67A3788F-4B2A-3CF4-AE7F-D7E45546B63B}</Project>
+      <Name>BakudanBitoWithCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\07_2DActionGame\BakudanBitoWithDynamicObject\BakudanBitoWithDynamicObject.vcxproj">
+      <Project>{BB60EB6A-F364-323C-B138-C36FAD63A797}</Project>
+      <Name>BakudanBitoWithDynamicObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\10_Sequence2\BakudanBitoWithImprovedSequence\BakudanBitoWithImprovedSequence.vcxproj">
+      <Project>{D494F8FE-5FFF-3E7F-8B76-4C6BF6D99E99}</Project>
+      <Name>BakudanBitoWithImprovedSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\10_Sequence2\BakudanBitoWithImprovedSequence2\BakudanBitoWithImprovedSequence2.vcxproj">
+      <Project>{96EE12A5-6176-3DB3-A03A-7350918CD5B9}</Project>
+      <Name>BakudanBitoWithImprovedSequence2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\10_Sequence2\BakudanBitoWithImprovedSequence3\BakudanBitoWithImprovedSequence3.vcxproj">
+      <Project>{A989D9CD-FF3B-3A24-9676-635376DCFCBB}</Project>
+      <Name>BakudanBitoWithImprovedSequence3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\09_InputDevices\BakudanBitoWithJoystick\BakudanBitoWithJoystick.vcxproj">
+      <Project>{5C6D978D-90BC-3A74-871A-11EC61385D21}</Project>
+      <Name>BakudanBitoWithJoystick</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound1\BakudanbitoWithSound\BakudanbitoWithSound.vcxproj">
+      <Project>{B123600F-67A8-3905-B9E0-5DE32F3A2A95}</Project>
+      <Name>BakudanbitoWithSound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\17_FastCode\BinarySearch\BinarySearch.vcxproj">
+      <Project>{C9B8FB2C-F7CE-3277-BB97-957769A0C1D6}</Project>
+      <Name>BinarySearch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\17_FastCode\CacheMissHell\CacheMissHell.vcxproj">
+      <Project>{AD71BB84-9C4F-3681-8F4F-2676CFCC62DE}</Project>
+      <Name>CacheMissHell</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\ChangeFrequency\ChangeFrequency.vcxproj">
+      <Project>{5848678D-2F27-3475-9E37-4C9BA04E56C7}</Project>
+      <Name>ChangeFrequency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\ChangeTimbre\ChangeTimbre.vcxproj">
+      <Project>{D2CC88D4-FE89-3C07-A46E-187AB9D5E9AC}</Project>
+      <Name>ChangeTimbre</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\ChangeVolume\ChangeVolume.vcxproj">
+      <Project>{14C8FD76-C691-3301-B35A-4367197C6D11}</Project>
+      <Name>ChangeVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesAllCombination\CirclesAllCombination.vcxproj">
+      <Project>{9C5223D2-A708-38CD-90A5-BFFE14AD92E0}</Project>
+      <Name>CirclesAllCombination</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesKDTree\CirclesKDTree.vcxproj">
+      <Project>{C32D843D-96DB-342C-830B-0C9C3DF3F1B5}</Project>
+      <Name>CirclesKDTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesSorting1\CirclesSorting1.vcxproj">
+      <Project>{DF23D97E-C0CA-31BD-814D-9F067095BF41}</Project>
+      <Name>CirclesSorting1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesSorting2\CirclesSorting2.vcxproj">
+      <Project>{1CDA630F-1B8C-31CF-87DC-A29AE64A6649}</Project>
+      <Name>CirclesSorting2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesUniformDivisionUsingArray\CirclesUniformDivisionUsingArray.vcxproj">
+      <Project>{F0E67AE2-4170-3F74-A72A-16724E848DAD}</Project>
+      <Name>CirclesUniformDivisionUsingArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesUniformDivisionUsingArrayList\CirclesUniformDivisionUsingArrayList.vcxproj">
+      <Project>{E18BEAA5-324B-3CF0-9968-966DA11389D3}</Project>
+      <Name>CirclesUniformDivisionUsingArrayList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesUniformDivisionUsingArrayList2\CirclesUniformDivisionUsingArrayList2.vcxproj">
+      <Project>{131351B2-E32A-3CA8-9C72-2CBCDA711B6E}</Project>
+      <Name>CirclesUniformDivisionUsingArrayList2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesUniformDivisionUsingArrayList3\CirclesUniformDivisionUsingArrayList3.vcxproj">
+      <Project>{B6664813-B171-3A3A-A07D-DA5756747418}</Project>
+      <Name>CirclesUniformDivisionUsingArrayList3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\22_3DCollision2\CirclesUniformDivisionUsingStdList\CirclesUniformDivisionUsingStdList.vcxproj">
+      <Project>{E1B0C952-0A9F-3837-878A-D104736970A5}</Project>
+      <Name>CirclesUniformDivisionUsingStdList</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\Circuit\Circuit.vcxproj">
+      <Project>{C8F1D45B-C1AB-34CB-8181-2E3F5006E83E}</Project>
+      <Name>Circuit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\ConstantRate\ConstantRate.vcxproj">
+      <Project>{3CCACBFF-ED94-330B-85AE-E9F7C0459AF3}</Project>
+      <Name>ConstantRate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\CorrectIncrementation\CorrectIncrementation.vcxproj">
+      <Project>{39CC5BEE-D23B-3B56-9DCC-6767494BC066}</Project>
+      <Name>CorrectIncrementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\Detection\Detection.vcxproj">
+      <Project>{3ADB9D92-6844-34BC-8EC3-FCCD0410AF0F}</Project>
+      <Name>Detection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\DictionaryCompression\DictionaryCompression.vcxproj">
+      <Project>{2B7EFFC6-49CD-34C7-BAFC-94F916C66F0E}</Project>
+      <Name>DictionaryCompression</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\DrawColoredAndTexturedTriangle\DrawColoredAndTexturedTriangle.vcxproj">
+      <Project>{02A9829A-6D2B-3F20-A8C4-4C7D997BE83D}</Project>
+      <Name>DrawColoredAndTexturedTriangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\DrawColoredTriangle\DrawColoredTriangle.vcxproj">
+      <Project>{C795264A-3284-33E8-9720-E87C0988264D}</Project>
+      <Name>DrawColoredTriangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\25_UsingFinalLibrary\DrawCube\DrawCube.vcxproj">
+      <Project>{B38A8B53-756E-3C5D-AA52-5A1B90B54BDA}</Project>
+      <Name>DrawCube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\DrawTexturedTriangle\DrawTexturedTriangle.vcxproj">
+      <Project>{AE6561F8-E7E9-32A6-8642-9A5423266737}</Project>
+      <Name>DrawTexturedTriangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\DrawTriangle\DrawTriangle.vcxproj">
+      <Project>{1B16D570-0E5E-388F-B119-A174F9CA3418}</Project>
+      <Name>DrawTriangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\26_LifeWithBugs\Library\FinalLibrary.vcxproj">
+      <Project>{231E2606-8725-3F9B-93C9-99B2B217B7B9}</Project>
+      <Name>FinalLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\HuffmanCoder\HuffmanCoder.vcxproj">
+      <Project>{D9D6BC00-AC90-318E-91C8-3C4AD81A8E87}</Project>
+      <Name>HuffmanCoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\09_InputDevices\Joystick\Joystick.vcxproj">
+      <Project>{39F9E8CE-775C-33FC-A108-3BCBE5E42ADF}</Project>
+      <Name>Joystick</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\09_InputDevices\Keyboard\Keyboard.vcxproj">
+      <Project>{243ADE8A-D312-3A69-8924-D0D240DA86A1}</Project>
+      <Name>Keyboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\15_GraphicsLibrary1\Library\Library.vcxproj">
+      <Project>{65648B15-8630-30E5-BA8F-3D13F78FA48E}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\17_FastCode\ListUsingArray\ListUsingArray.vcxproj">
+      <Project>{9121C868-C6BC-36BF-A5D8-C93708200A50}</Project>
+      <Name>ListUsingArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\17_FastCode\ListUsingNew\ListUsingNew.vcxproj">
+      <Project>{424FA216-7AE7-34CE-AA40-FBF3374FDDA4}</Project>
+      <Name>ListUsingNew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\LoaderUsingThread\LoaderUsingThread.vcxproj">
+      <Project>{D688FDDA-68F4-3EB3-9BDF-48EE3135A13E}</Project>
+      <Name>LoaderUsingThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\LoaderWithArchiveAccess\LoaderWithArchiveAccess.vcxproj">
+      <Project>{5FC30B04-0B07-3932-B303-12F0A15E6D93}</Project>
+      <Name>LoaderWithArchiveAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\LoadingUsingThread\LoadingUsingThread.vcxproj">
+      <Project>{F45A2ADB-F55D-3C96-9D9C-06523A29FEE3}</Project>
+      <Name>LoadingUsingThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\MergeMatrices\MergeMatrices.vcxproj">
+      <Project>{9A42CA05-7414-3B9A-9936-785724683D08}</Project>
+      <Name>MergeMatrices</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\16_PseudoXml\MinimumImplementation\MinimumImplementation.vcxproj">
+      <Project>{1BAB67DC-23F0-3F5D-8322-61CFE4A6A24E}</Project>
+      <Name>MinimumImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\09_InputDevices\Mouse\Mouse.vcxproj">
+      <Project>{AC2A4916-FAC7-32ED-B098-D91BF28E4CC3}</Project>
+      <Name>Mouse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\MultiTrack\MultiTrack.vcxproj">
+      <Project>{EAA4AFC9-76A8-30F5-B9BA-89071026EF9B}</Project>
+      <Name>MultiTrack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound1\MultipleWaveFile\MultipleWaveFile.vcxproj">
+      <Project>{D532D2D7-ED05-3164-8F0A-614FEC621061}</Project>
+      <Name>MultipleWaveFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKun\NimotsuKun.vcxproj">
+      <Project>{A73B1A9E-307A-3AC7-82C0-28894881552D}</Project>
+      <Name>NimotsuKun</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKun2\NimotsuKun2.vcxproj">
+      <Project>{5FF790A7-AD72-3076-8475-593EA7D31E1D}</Project>
+      <Name>NimotsuKun2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\NimotsuKunAlphaBlend\NimotsuKunAlphaBlend.vcxproj">
+      <Project>{B5903A68-5022-3E5F-89E1-0D458892A00D}</Project>
+      <Name>NimotsuKunAlphaBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\NimotsuKunAlphaTest\NimotsuKunAlphaTest.vcxproj">
+      <Project>{818D86C4-B63E-3B60-A318-72B234B4B49C}</Project>
+      <Name>NimotsuKunAlphaTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKunBitOperation\NimotsuKunBitOperation.vcxproj">
+      <Project>{DCBA6C50-5BD7-3175-8D21-04EC114C478F}</Project>
+      <Name>NimotsuKunBitOperation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotsuKunBox\NimotsuKunBox.vcxproj">
+      <Project>{A05DD606-25A2-3D8F-8494-C255D21D8AE3}</Project>
+      <Name>NimotsuKunBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotsuKunBoxWithTermination\NimotsuKunBoxWithTermination.vcxproj">
+      <Project>{FF95C439-C3F0-3271-ADB2-DC5A7EAE028B}</Project>
+      <Name>NimotsuKunBoxWithTermination</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunConstantFrameRate\NimotsuKunConstantFrameRate.vcxproj">
+      <Project>{A404E2EC-A145-32E4-9FED-5A167D24F08C}</Project>
+      <Name>NimotsuKunConstantFrameRate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotuKunDot\NimotsuKunDot.vcxproj">
+      <Project>{C4A1ACD3-A809-36F4-B87F-0BBF88848B8F}</Project>
+      <Name>NimotsuKunDot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\NonFree\NimotsuKunFinal\NimotsuKunFinal.vcxproj">
+      <Project>{1AC3DA0E-BA61-3A49-B0DA-4CFE42226E1C}</Project>
+      <Name>NimotsuKunFinal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\NimotsuKunImage\NimotsuKunImage.vcxproj">
+      <Project>{98A2CB6A-9363-3B52-97D0-5118CC53B6E2}</Project>
+      <Name>NimotsuKunImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\01_FirstGame\NimotsuKunRawMemory\NimotsuKunRawMemory.vcxproj">
+      <Project>{C019D127-9B03-398F-B642-B54FF355F54C}</Project>
+      <Name>NimotsuKunRawMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunRealTime\NimotsuKunRealTime.vcxproj">
+      <Project>{62774C19-58F2-3608-A843-8A3D24844FB5}</Project>
+      <Name>NimotsuKunRealTime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunRealTime2\NimotsuKunRealTime2.vcxproj">
+      <Project>{22FF87BB-FD5B-30C2-B9BF-B4F1A22E5D59}</Project>
+      <Name>NimotsuKunRealTime2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunSmoothMove\NimotsuKunSmoothMove.vcxproj">
+      <Project>{6DAFEC4D-9BE5-3696-80E4-CCB7B8733035}</Project>
+      <Name>NimotsuKunSmoothMove</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\NimotsuKunTextOnly\NimotsuKunTextOnly.vcxproj">
+      <Project>{DCEEA81A-FD4D-30A2-9DCF-CF87A95A7A31}</Project>
+      <Name>NimotsuKunTextOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\NimotsuKunVariableFrameRate\NimotsuKunVariableFrameRate.vcxproj">
+      <Project>{2D382711-BB0F-3C64-A49D-C0526A325D83}</Project>
+      <Name>NimotsuKunVariableFrameRate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\06_Font1\NimotsuKunWithFont\NimotsuKunWithFont.vcxproj">
+      <Project>{70D8FEE3-C260-3911-A0DE-53CF22DB40B2}</Project>
+      <Name>NimotsuKunWithFont</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\05_Sequence1\NimotsuKunWithSequence1\NimotsuKunWithSequence1.vcxproj">
+      <Project>{04A11DC4-81EB-3E4E-AC5B-AE1614A9A86E}</Project>
+      <Name>NimotsuKunWithSequence1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\05_Sequence1\NimotsuKunWithSequence2\NimotsuKunWithSequence2.vcxproj">
+      <Project>{C5279D94-6003-3169-BE1F-8DB47AF771FF}</Project>
+      <Name>NimotsuKunWithSequence2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\07_2DActionGame\NimotsuKunWithSystemFont\NimotsuKunWithSystemFont.vcxproj">
+      <Project>{E2637EE0-E467-3BC9-92EC-712EF9912EE2}</Project>
+      <Name>NimotsuKunWithSystemFont</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\OneFilePerFrame\OneFilePerFrame.vcxproj">
+      <Project>{78D00DDD-61F3-3CE0-BF56-2E1B8F1099BD}</Project>
+      <Name>OneFilePerFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\PerspectiveProblems\PerspectiveProblems.vcxproj">
+      <Project>{F7851134-A6FA-337C-A80A-9182B728CC22}</Project>
+      <Name>PerspectiveProblems</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\10_Sequence2\Polymorphism\Polymorphism.vcxproj">
+      <Project>{66FDC95B-7555-301F-9CEC-766F8C51117E}</Project>
+      <Name>Polymorphism</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\PrespectiveProblems2\PrespectiveProblems2.vcxproj">
+      <Project>{D2890402-4FDC-3B01-8884-1ED3F880B2B1}</Project>
+      <Name>PrespectiveProblems2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\RaceCondition\RaceCondition.vcxproj">
+      <Project>{9F839FCC-766E-3B58-99C7-EDE839CAB994}</Project>
+      <Name>RaceCondition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\RaceCondition2\RaceCondition2.vcxproj">
+      <Project>{011C4ABC-EF93-3317-8399-F96D9C7781C8}</Project>
+      <Name>RaceCondition2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\RangeCoder\RangeCoder.vcxproj">
+      <Project>{F3A53965-A810-3270-B73B-BF8A32A8B388}</Project>
+      <Name>RangeCoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\Reaction1\Reaction1.vcxproj">
+      <Project>{4F272A75-F011-35DA-8C4D-FD7577F555DC}</Project>
+      <Name>Reaction1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\Reaction2\Reaction2.vcxproj">
+      <Project>{1FB0E6A0-4128-3DEB-A781-23FC5F85A4FA}</Project>
+      <Name>Reaction2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\Reaction3\Reaction3.vcxproj">
+      <Project>{B037F5AD-FCD9-38DD-A0DE-F099130F7DFC}</Project>
+      <Name>Reaction3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\Reaction4\Reaction4.vcxproj">
+      <Project>{C0E8E743-D425-330C-B708-3E7D3757EAA0}</Project>
+      <Name>Reaction4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\Reaction5\Reaction5.vcxproj">
+      <Project>{B94EC1C7-641E-3313-BE03-B1E47B51EEE7}</Project>
+      <Name>Reaction5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\ReducingStress1\ReducingStress1.vcxproj">
+      <Project>{1409E222-EC7D-38F1-9E44-DA51E83E3D61}</Project>
+      <Name>ReducingStress1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\ReducingStress2\ReducingStress2.vcxproj">
+      <Project>{6469A817-333A-3DE5-B153-1B4C3A306EED}</Project>
+      <Name>ReducingStress2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\ReducingStress3\ReducingStress3.vcxproj">
+      <Project>{D4B54837-674B-3C35-A212-D0ADB4F45CAA}</Project>
+      <Name>ReducingStress3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\19_RoboFightDesign\Library\RoboFightDesignLibrary.vcxproj">
+      <Project>{9D61ABD0-04EC-3543-B908-A650F1651FF3}</Project>
+      <Name>RoboFightDesignLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\NonFree\RoboFightFinal\RoboFightFinal.vcxproj">
+      <Project>{B2B99B9F-0521-3D39-BB11-7A498B1B76D5}</Project>
+      <Name>RoboFightFinal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\RoboFightGraphicsOnly\RoboFightGraphicsOnly.vcxproj">
+      <Project>{B217CADF-80AA-3981-B84D-497AD97932C9}</Project>
+      <Name>RoboFightGraphicsOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\19_RoboFightDesign\RoboFightIntegrated\RoboFightIntegrated.vcxproj">
+      <Project>{B5238930-7573-3E2C-BD97-DA33B0D18474}</Project>
+      <Name>RoboFightIntegrated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\19_RoboFightDesign\RoboFightIntegrated2\RoboFightIntegrated2.vcxproj">
+      <Project>{14AAD12B-06B9-3C39-ADDC-3B67AFA913B3}</Project>
+      <Name>RoboFightIntegrated2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\19_RoboFightDesign\RoboFightMoveOnly\RoboFightMoveOnly.vcxproj">
+      <Project>{C452D69E-D70A-3B8F-9E7D-C7CE686A31A0}</Project>
+      <Name>RoboFightMoveOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\26_LifeWithBugs\RoboFightSafe\RoboFightSafe.vcxproj">
+      <Project>{A9D85C3B-C6D0-307B-906D-AB1DE62DB5CF}</Project>
+      <Name>RoboFightSafe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\25_UsingFinalLibrary\RoboFightUsingFinal\RoboFightUsingFinal.vcxproj">
+      <Project>{91C3FD92-C149-3B7A-A617-96910B3DD39E}</Project>
+      <Name>RoboFightUsingFinal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\19_RoboFightDesign\RoboFightWeaponOnly\RoboFightWeaponOnly.vcxproj">
+      <Project>{6C302157-C273-3211-BDFF-0238D3AE0428}</Project>
+      <Name>RoboFightWeaponOnly</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\RoboFightWithAnimation\RoboFightWithAnimation.vcxproj">
+      <Project>{E3CFC927-D41D-3A93-B287-2EAD625DA299}</Project>
+      <Name>RoboFightWithAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\18_3DCollision1\RoboFightWithCuboidCollision\RoboFightWithCuboidCollision.vcxproj">
+      <Project>{E0CD2502-9323-3A08-8D96-0F5DF3E8A1D4}</Project>
+      <Name>RoboFightWithCuboidCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\20_Lighting\RoboFightWithDiffuseLighting\RoboFightWithDiffuseLighting.vcxproj">
+      <Project>{5B76A9DD-26CA-30BC-928F-D59D12C0F349}</Project>
+      <Name>RoboFightWithDiffuseLighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\19_RoboFightDesign\RoboFightWithFrontend\RoboFightWithFrontend.vcxproj">
+      <Project>{7773B737-104F-39CB-82A5-80E9920049E3}</Project>
+      <Name>RoboFightWithFrontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\20_Lighting\RoboFightWithSmoothShading\RoboFightWithSmoothShading.vcxproj">
+      <Project>{56F891BD-9B95-39E5-BF6E-147D094D152D}</Project>
+      <Name>RoboFightWithSmoothShading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\18_3DCollision1\RoboFightWithSphereCollision\RoboFightWithSphereCollision.vcxproj">
+      <Project>{24F99F3B-BCA9-3A2A-BB66-64D2646E1869}</Project>
+      <Name>RoboFightWithSphereCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\18_3DCollision1\RoboFightWithTriangleCollision\RoboFightWithTriangleCollision.vcxproj">
+      <Project>{FDAA0F9C-83DA-369B-867C-1614F4E479B6}</Project>
+      <Name>RoboFightWithTriangleCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\18_3DCollision1\RoboFightWithTriangleCollision2\RoboFightWithTriangleCollision2.vcxproj">
+      <Project>{921430FB-BBB2-3F5A-B1F3-5BD53E2D5A59}</Project>
+      <Name>RoboFightWithTriangleCollision2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\18_3DCollision1\RoboFightWithTriangleCollision3\RoboFightWithTriangleCollision3.vcxproj">
+      <Project>{04A19778-2CCA-3A7E-BC63-748E2866616D}</Project>
+      <Name>RoboFightWithTriangleCollision3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\Rotation1\Rotation1.vcxproj">
+      <Project>{8F3B3BB9-BCE5-3593-BC6D-0CEEF9C347D0}</Project>
+      <Name>Rotation1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\Rotation2\Rotation2.vcxproj">
+      <Project>{9FFFCE5E-C901-3E51-9073-2CF338C30A1E}</Project>
+      <Name>Rotation2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\RotationAndScaling\RotationAndScaling.vcxproj">
+      <Project>{372F25F5-1DAA-319A-8E77-77444F022970}</Project>
+      <Name>RotationAndScaling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\RotationWithInterporation\RotationWithInterporation.vcxproj">
+      <Project>{5A77B80C-6833-3D17-8278-877F2873DCFF}</Project>
+      <Name>RotationWithInterporation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\RotationWithMatrix\RotationWithMatrix.vcxproj">
+      <Project>{D9A94444-378B-3977-B0C2-F8CB9FCA2FC2}</Project>
+      <Name>RotationWithMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\RotationWithMatrix23\RotationWithMatrix23.vcxproj">
+      <Project>{71CDF9E0-F44C-3436-9040-891C62554100}</Project>
+      <Name>RotationWithMatrix23</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\RotationWithRasterization\RotationWithRasterization.vcxproj">
+      <Project>{EAC4585B-A470-3DAD-8CCA-90FFD8429FCB}</Project>
+      <Name>RotationWithRasterization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\RotationWithVector\RotationWithVector.vcxproj">
+      <Project>{5D9A7F72-C22F-3BCA-81D7-084FC8A03081}</Project>
+      <Name>RotationWithVector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\RunLengthCompression\RunLengthCompression.vcxproj">
+      <Project>{E8C265C1-3608-3E7D-9BBE-CADC402C2E18}</Project>
+      <Name>RunLengthCompression</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\Scale\Scale.vcxproj">
+      <Project>{D9B0147F-96D0-3B99-82E5-9B19FDF06C1B}</Project>
+      <Name>Scale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\Scaling\Scaling.vcxproj">
+      <Project>{D39ED2DD-BC03-3FC4-9BF9-BE8C932E72DD}</Project>
+      <Name>Scaling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\ScalingWithMatrix23\ScalingWithMatrix23.vcxproj">
+      <Project>{24946FE1-A2EF-316A-8707-8194D76BCC0E}</Project>
+      <Name>ScalingWithMatrix23</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\SimpleLoader\SimpleLoader.vcxproj">
+      <Project>{E9DF726F-D875-314A-A326-47EEF7F28614}</Project>
+      <Name>SimpleLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SimpleSine\SimpleSine.vcxproj">
+      <Project>{D7F45448-3D7E-3938-8521-71DF1EA4CCAA}</Project>
+      <Name>SimpleSine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SimpleSineWithRotation\SimpleSineWithRotation.vcxproj">
+      <Project>{08853EB9-06C4-3280-8FF3-0665956CB5B5}</Project>
+      <Name>SimpleSineWithRotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SimpleSineWithRotation2\SimpleSineWithRotation2.vcxproj">
+      <Project>{928EDCBA-CA48-35CE-BC2D-C840C137D3A9}</Project>
+      <Name>SimpleSineWithRotation2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\SimpleThread\SimpleThread.vcxproj">
+      <Project>{15A1529C-6AD3-338E-9B0F-23D187F633B1}</Project>
+      <Name>SimpleThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\SimpleWave\SimpleWave.vcxproj">
+      <Project>{5901017D-3280-3159-B400-DC0082BF58FA}</Project>
+      <Name>SimpleWave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\SingleTrack\SingleTrack.vcxproj">
+      <Project>{BB011BAE-87B3-3E5B-BA2B-9AB18124DDF0}</Project>
+      <Name>SingleTrack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound1\SingleWaveFile\SingleWaveFile.vcxproj">
+      <Project>{63F45748-E8D0-3B1D-9B11-0E8334CA7D4F}</Project>
+      <Name>SingleWaveFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SolarSystem1\SolarSystem1.vcxproj">
+      <Project>{B46845BD-4A5F-3828-B305-A4EDB7360D1E}</Project>
+      <Name>SolarSystem1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SolarSystem2\SolarSystem2.vcxproj">
+      <Project>{9C458B04-D41C-3DD0-B8A7-487EDACCCFD8}</Project>
+      <Name>SolarSystem2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SolarSystem3\SolarSystem3.vcxproj">
+      <Project>{00B991B3-60CB-3416-A0D9-DDC4427EF15F}</Project>
+      <Name>SolarSystem3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SolarSystem4\SolarSystem4.vcxproj">
+      <Project>{17E64C66-3B86-3761-B246-A21CC49B18B3}</Project>
+      <Name>SolarSystem4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SolarSystem5\SolarSystem5.vcxproj">
+      <Project>{3A2367F5-ED87-36F7-8C8D-F93B04854F0F}</Project>
+      <Name>SolarSystem5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\21_Animation\SolarSystem6\SolarSystem6.vcxproj">
+      <Project>{688B1749-09B3-3F15-BF64-70679A106043}</Project>
+      <Name>SolarSystem6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\08_2DCollision\StressfulReaction\StressReaction.vcxproj">
+      <Project>{E6A222EC-676A-378B-B271-9813A2C80287}</Project>
+      <Name>StressReaction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\Superposition\Superposition.vcxproj">
+      <Project>{C4BC3C8E-AAA8-34CE-A2CA-3CBC95C91AA0}</Project>
+      <Name>Superposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\04_RealTime\Tearing\Tearing.vcxproj">
+      <Project>{38621FFC-AA89-306F-87D8-BD1DC2AEEFB9}</Project>
+      <Name>Tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\13_3DHardware1\Transform\Transform.vcxproj">
+      <Project>{A794A0F1-757C-3EE1-839C-CF338AADE55B}</Project>
+      <Name>Transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\12_2DTransform\TranslationWithMatrix23\TranslationWithMatrix23.vcxproj">
+      <Project>{196DC81C-BE83-357B-963B-1CDD7ACFA9DF}</Project>
+      <Name>TranslationWithMatrix23</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\25_UsingFinalLibrary\TransparentCubes\TransparentCubes.vcxproj">
+      <Project>{4168DCEA-FD18-3EE5-9E8D-E1C40241A08E}</Project>
+      <Name>TransparentCubes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\17_FastCode\TravelingSalesmanProblem\TravelingSalesmanProblem.vcxproj">
+      <Project>{7281F214-C3F9-3FA7-9C1F-09E2BE18F2CC}</Project>
+      <Name>TravelingSalesmanProblem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\15_GraphicsLibrary1\UsageSample\UsageSample.vcxproj">
+      <Project>{9FC7FED3-AD42-3716-AAEB-C627140F3FA5}</Project>
+      <Name>UsageSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\ViewTransform\ViewTransform.vcxproj">
+      <Project>{C1D052DD-E8D7-3E41-B7CA-C69357589D5D}</Project>
+      <Name>ViewTransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound2\WavFile\WavFile.vcxproj">
+      <Project>{90D29CB5-9CB2-368B-B63B-0C3900875CBA}</Project>
+      <Name>WavFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\11_Sound1\WaveSynthesis\WaveSynthesis.vcxproj">
+      <Project>{3630D772-6AD5-373B-9380-19DC2AF2B02A}</Project>
+      <Name>WaveSynthesis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\WholeTransform\WholeTransform.vcxproj">
+      <Project>{7AB4198F-2B78-3752-929D-6A6CBF3A3F85}</Project>
+      <Name>WholeTransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\WorldTransform\WorldTransform.vcxproj">
+      <Project>{DD6CAB9F-F1D8-3725-8919-26F8E9CBF460}</Project>
+      <Name>WorldTransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\WrongIncermentation\WrongIncermentation.vcxproj">
+      <Project>{0FC0E4C5-7FB3-343E-A6D6-5A273BE08966}</Project>
+      <Name>WrongIncermentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\23_Loading\WrongIncrementation2\WrongIncermentation2.vcxproj">
+      <Project>{58C3B733-5684-3CA3-BD5B-4066902D3636}</Project>
+      <Name>WrongIncermentation2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\ZTest\ZTest.vcxproj">
+      <Project>{48EC4130-30CB-3447-BDF4-D944B2CED54B}</Project>
+      <Name>ZTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImage\displayImage.vcxproj">
+      <Project>{D328BFCC-11BF-3A16-A982-0743C37F2B7E}</Project>
+      <Name>displayImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImageAdditionalBlend\displayImageAdditionalBlend.vcxproj">
+      <Project>{F4EE38C7-BC8F-3820-B816-022DD9C35ADB}</Project>
+      <Name>displayImageAdditionalBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImageAlphaBlend\displayImageAlphaBlend.vcxproj">
+      <Project>{B3DA2254-1A99-31E2-A4CD-CEC00495B00E}</Project>
+      <Name>displayImageAlphaBlend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImageAlphaTest\displayImageAlphaTest.vcxproj">
+      <Project>{75DA26D5-4ADB-3A0E-8AE2-1A9897DA5CED}</Project>
+      <Name>displayImageAlphaTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\03_2DGraphics2\displayImagePartially\displayImagePartially.vcxproj">
+      <Project>{D2EC2C74-F816-3B6F-9D1D-FA2BC7AE7EEA}</Project>
+      <Name>displayImagePartially</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\draw3DTriangle\draw3DTriangle.vcxproj">
+      <Project>{22288A42-6001-366E-9F50-FA19EDACC429}</Project>
+      <Name>draw3DTriangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\drawPerspectiveRect\drawPerspectiveRect.vcxproj">
+      <Project>{D3F47AAC-4DE4-3808-B363-B9FA72926319}</Project>
+      <Name>drawPerspectiveRect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\14_3DGraphics1\drawPerspectiveRect2\drawPerspectiveRect2.vcxproj">
+      <Project>{C8BABC2D-9203-30BD-9FA1-728F6E0F6EF8}</Project>
+      <Name>drawPerspectiveRect2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\02_2DGraphics1\drawPixels\drawPixels.vcxproj">
+      <Project>{4417FC36-E741-3438-9EC7-89377DAD6328}</Project>
+      <Name>drawPixels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

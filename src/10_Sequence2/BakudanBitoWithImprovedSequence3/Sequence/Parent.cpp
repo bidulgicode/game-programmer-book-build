@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 #include "Sequence/Parent.h"
 #include "Sequence/Title.h"
 
@@ -23,25 +23,25 @@ Parent* Parent::instance(){
 Parent::Parent() : 
 mMode( MODE_NONE ),
 mChild( 0 ){
-	//Å‰‚Éì‚é‚Ì‚Íƒ^ƒCƒgƒ‹
+	//æœ€åˆã«ä½œã‚‹ã®ã¯ã‚¿ã‚¤ãƒˆãƒ«
 	mChild = new Title();
 }
 
 Parent::~Parent(){
-	//c‚Á‚Ä‚¢‚ê‚Î–•E
+	//æ®‹ã£ã¦ã„ã‚Œã°æŠ¹æ®º
 	SAFE_DELETE( mChild );
 }
 
 void Parent::update(){
 	Base* nextChild = mChild->update( this );
 	if ( nextChild != mChild ){
-		//‘JˆÚ”»’è
+		//é·ç§»åˆ¤å®š
 		Child* casted = dynamic_cast< Child* >( nextChild );
-		ASSERT( casted ); //¸”s‚Í‚ ‚è‚¦‚È‚¢B
+		ASSERT( casted ); //å¤±æ•—ã¯ã‚ã‚Šãˆãªã„ã€‚
 		SAFE_DELETE( mChild );
 		mChild = casted;
 	}
-	nextChild = 0; //”O‚Ì‚½‚ß
+	nextChild = 0; //å¿µã®ãŸã‚
 }
 
 void Parent::setMode( Mode mode ){

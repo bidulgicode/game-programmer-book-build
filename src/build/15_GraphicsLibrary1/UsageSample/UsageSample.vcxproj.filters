@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Batch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Matrix34.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Matrix44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Matrix34.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Matrix44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\15_GraphicsLibrary1\UsageSample\Library\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F47BF6AE-1CE4-328F-A88F-BA6B1DE72F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85F82CD5-A6DC-3831-9B32-EF5B52CDBD82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

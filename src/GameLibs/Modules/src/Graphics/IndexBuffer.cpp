@@ -1,4 +1,4 @@
-#include <d3d9.h>
+ï»¿#include <d3d9.h>
 #undef min
 #undef max
 
@@ -28,7 +28,7 @@ unsigned short* IndexBuffer::lock(){
 }
 
 void IndexBuffer::unlock( unsigned short** p ){
-	//TODO:ƒfƒoƒOŽž‚ÍƒƒbƒN‚Å•Ô‚µ‚½ƒ|ƒCƒ“ƒ^‚ðŠo‚¦‚Ä‚¨‚¢‚Ä‚±‚±‚ÅÆ‡‚·‚×‚«B
+	//TODO:ãƒ‡ãƒã‚°æ™‚ã¯ãƒ­ãƒƒã‚¯ã§è¿”ã—ãŸãƒã‚¤ãƒ³ã‚¿ã‚’è¦šãˆã¦ãŠã„ã¦ã“ã“ã§ç…§åˆã™ã¹ãã€‚
 	ASSERT( *p && "Graphics::IndexBuffer : give LOCKED pointer." );
 	ASSERT( mImpl && "Graphics::IndexBuffer : This is empty object." );
 	mImpl->unlock();

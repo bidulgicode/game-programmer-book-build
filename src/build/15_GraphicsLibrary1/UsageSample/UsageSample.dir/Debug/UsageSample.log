@@ -1,0 +1,13 @@
+﻿  Batch.cpp
+  Camera.cpp
+  IndexBuffer.cpp
+  Matrix34.cpp
+  Matrix44.cpp
+  Model.cpp
+  Vector2.cpp
+  Vector3.cpp
+  VertexBuffer.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+  UsageSample.vcxproj -> C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\build\15_GraphicsLibrary1\UsageSample\Debug\UsageSample.exe
+  CopyResource

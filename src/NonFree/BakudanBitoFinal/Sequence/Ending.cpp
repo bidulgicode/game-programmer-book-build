@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 using namespace GameLib;
 
 #include "Sequence/Ending.h"
@@ -16,10 +16,10 @@ Ending::~Ending(){
 }
 
 void Ending::update( Parent* parent ){
-	if ( mCount == 120 ){ //2•b‘Ò‚Â 
+	if ( mCount == 120 ){ //2ç§’å¾…ã¤ 
 		parent->moveTo( Parent::NEXT_TITLE );
 	}
-	//•`‰æ
+	//æç”»
 	mImage->draw();
 
 	++mCount;

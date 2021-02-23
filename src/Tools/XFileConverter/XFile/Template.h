@@ -1,4 +1,4 @@
-#ifndef INCLUDED_XFILE_TEMPLATE_H
+﻿#ifndef INCLUDED_XFILE_TEMPLATE_H
 #define INCLUDED_XFILE_TEMPLATE_H
 
 #include "GameLib/Base/RefString.h"
@@ -34,8 +34,8 @@ public:
 	const RefString* getChildType( int index ) const;
 	const RefString* getType() const;
 private:
-	void operator=( const Template& ); //�֎~
-	Template( const Template& ); //�֎~
+	void operator=( const Template& ); //禁止
+	Template( const Template& ); //禁止
 
 	int createArray(
 		Element** elementOut, 

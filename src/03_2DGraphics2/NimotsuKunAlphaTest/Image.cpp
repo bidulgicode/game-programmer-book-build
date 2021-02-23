@@ -1,4 +1,4 @@
-#include "Image.h"
+ï»¿#include "Image.h"
 #include "File.h"
 
 #include "GameLib/Framework.h"
@@ -42,7 +42,7 @@ int height ) const {
 	for ( int y = 0; y < height; ++y ){
 		for ( int x = 0; x < width; ++x ){
 			unsigned src = mData[ ( y + srcY ) * mWidth + ( x + srcX ) ];
-			if ( src & 0x80000000 ){ //ƒAƒ‹ƒtƒ@ƒ`ƒƒƒlƒ‹‚ª128ˆÈã‚È‚ç
+			if ( src & 0x80000000 ){ //ã‚¢ãƒ«ãƒ•ã‚¡ãƒãƒ£ãƒãƒ«ãŒ128ä»¥ä¸Šãªã‚‰
 				unsigned* dst = &vram[ ( y + dstY ) * windowWidth + ( x + dstX ) ];
 				*dst = src;
 			}

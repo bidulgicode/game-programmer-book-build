@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 using namespace GameLib;
 #include "Image.h"
 
@@ -29,7 +29,7 @@ namespace GameLib{
 		double t2[ 2 ] = { 0.0, 1.0 };
 		drawTriangle2D( p0, p1, p2, t0, t1, t2 );
 
-		//I—¹ˆ—‚µ‚Ä‚İ‚æ‚¤‚©
+		//çµ‚äº†å‡¦ç†ã—ã¦ã¿ã‚ˆã†ã‹
 		if ( isEndRequested() ){
 			destroyTexture( &gTexture );
 		}		

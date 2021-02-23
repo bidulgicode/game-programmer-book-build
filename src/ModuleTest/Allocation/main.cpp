@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 #include "GameLib/DebugScreen.h"
 #include "GameLib/Math/Random.h"
 #include "GameLib/Threading/Thread.h"
@@ -54,12 +54,12 @@ namespace GameLib{
 				gRandom[ i ] = Random::create( i );
 			}
 		}
-		//ƒXƒŒƒbƒh¶¬
+		//ã‚¹ãƒ¬ãƒƒãƒ‰ç”Ÿæˆ
 		Array< MyThread* > threads( N );
 		for ( int i = 0; i < N; ++i ){
 			threads[ i ] = NEW MyThread( i );
 		}
-		//I—¹‘Ò‚¿
+		//çµ‚äº†å¾…ã¡
 		for ( int i = 0; i < N; ++i ){
 			SAFE_DELETE( threads[ i ] );
 		}

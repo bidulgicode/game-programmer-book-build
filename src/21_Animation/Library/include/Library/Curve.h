@@ -1,4 +1,4 @@
-#ifndef INCLUDED_CURVE_H
+ï»¿#ifndef INCLUDED_CURVE_H
 #define INCLUDED_CURVE_H
 
 namespace GameLib{
@@ -21,15 +21,15 @@ public:
 		TYPE_SCALE_Z,
 	};
 	enum Interporation{
-		INTERPORATION_NONE, //•âŠÔ‚È‚µB
-		INTERPORATION_LINEAR, //1Ÿ•âŠÔ
-		INTERPORATION_CUBIC, //3Ÿ•âŠÔ
+		INTERPORATION_NONE, //è£œé–“ãªã—ã€‚
+		INTERPORATION_LINEAR, //1æ¬¡è£œé–“
+		INTERPORATION_CUBIC, //3æ¬¡è£œé–“
 	};
 	Curve( GameLib::PseudoXml::Element& );
 	~Curve();
-	//‚ ‚é‚Ìƒf[ƒ^‚ğ‚à‚ç‚¤
+	//ã‚ã‚‹æ™‚åˆ»ã®ãƒ‡ãƒ¼ã‚¿ã‚’ã‚‚ã‚‰ã†
 	double get( double time ) const;
-	//ƒ^ƒCƒvæ“¾
+	//ã‚¿ã‚¤ãƒ—å–å¾—
 	Type type() const;
 private:
 	struct Data{

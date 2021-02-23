@@ -1,4 +1,4 @@
-#ifndef INCLUDED_NODE_H
+ï»¿#ifndef INCLUDED_NODE_H
 #define INCLUDED_NODE_H
 
 #include <string>
@@ -14,7 +14,7 @@ class AnimationNode;
 
 class Node{
 public:
-	Node(); //ƒfƒtƒHƒ‹ƒgƒRƒ“ƒXƒgƒ‰ƒNƒ^
+	Node(); //ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿
 	Node( const Batch*, int childNumber );
 	~Node();
 	void draw( 
@@ -47,7 +47,7 @@ private:
 	Node** mChildren;
 	int mChildNumber;
 	string mName;
-	const AnimationNode* mAnimation; //ƒAƒjƒ[ƒVƒ‡ƒ“
+	const AnimationNode* mAnimation; //ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³
 };
 
 #endif

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_TITLE_H
+ï»¿#ifndef INCLUDED_SEQUENCE_TITLE_H
 #define INCLUDED_SEQUENCE_TITLE_H
 
 #include "Sequence/Child.h"
@@ -14,7 +14,7 @@ public:
 	~Title();
 	Base* update( Parent* );
 private:
-	Image* mImage; //ƒ^ƒCƒgƒ‹‰æ–Ê‰æ‘œ
+	Image* mImage; //ã‚¿ã‚¤ãƒˆãƒ«ç”»é¢ç”»åƒ
 	int mCursorPosistion;
 };
 

@@ -1,11 +1,11 @@
-#ifndef INCLUDED_STATE_H
+ï»¿#ifndef INCLUDED_STATE_H
 #define INCLUDED_STATE_H
 
 #include "Array2D.h"
 
-class Image; //éŒ¾‚¾‚¯‚µ‚Ä‚¨‚¯‚Î‚¢‚¢BƒCƒ“ƒNƒ‹[ƒh‚µ‚È‚­‚Ä‚¢‚¢B
+class Image; //å®£è¨€ã ã‘ã—ã¦ãŠã‘ã°ã„ã„ã€‚ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã—ãªãã¦ã„ã„ã€‚
 
-//ó‘ÔƒNƒ‰ƒX
+//çŠ¶æ…‹ã‚¯ãƒ©ã‚¹
 class State{
 public:
 	State( const char* stageData, int size );
@@ -20,9 +20,9 @@ private:
 	int mWidth;
 	int mHeight;
 	Array2D< Object > mObjects;
-	Image* mImage; //‰æ‘œ
+	Image* mImage; //ç”»åƒ
 	int mMoveCount;
-	static const int MAX_MOVE_COUNT = 500; //0.5•b
+	static const int MAX_MOVE_COUNT = 500; //0.5ç§’
 };
 
 #endif

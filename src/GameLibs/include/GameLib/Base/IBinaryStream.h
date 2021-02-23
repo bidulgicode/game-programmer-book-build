@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_IBINARYSTREAM_H
+﻿#ifndef INCLUDED_GAMELIB_IBINARYSTREAM_H
 #define INCLUDED_GAMELIB_IBINARYSTREAM_H
 
 #include "GameLib/Base/RefString.h"
@@ -7,9 +7,9 @@ namespace GameLib{
 
 class RefString;
 
-///�o�C�i���t�@�C���̓ǂݍ��݂��y�ɂ��邽�߂̃N���X
+///バイナリファイルの読み込みを楽にするためのクラス
 /*!
-��{�I�ɃR�s�[�͍s��Ȃ��B���������āA���̕�����͕ێ�����Ă���K�v������B
+基本的にコピーは行わない。したがって、元の文字列は保持されている必要がある。
 */
 class IBinaryStream{
 public:
@@ -17,9 +17,9 @@ public:
 	IBinaryStream( const char*, int size );
 	IBinaryStream( const RefString& );
 	~IBinaryStream();
-	///�߂�l�͓ǂ߂��o�C�g��
+	///戻り値は読めたバイト数
 	int read( char*, int size );
-	///�e��g�ݍ��ݐ����^�p�̃o�[�W�����B�������s�͈����ɕԂ邪�A�n���Ȃ���Ή������Ȃ��B
+	///各種組み込み整数型用のバージョン。成功失敗は引数に返るが、渡さなければ何もしない。
 	int readInt( bool* succeeded = 0 );
 	unsigned readUnsigned( bool* succeeded = 0 );
 	short readShort( bool* succeeded = 0 );

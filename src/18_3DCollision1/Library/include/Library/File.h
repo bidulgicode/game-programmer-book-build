@@ -1,4 +1,4 @@
-#ifndef INCLUDED_FILE_H
+ï»¿#ifndef INCLUDED_FILE_H
 #define INCLUDED_FILE_H
 
 class File{
@@ -9,7 +9,7 @@ public:
 	const char* data() const;
 	unsigned getUnsigned( int position ) const;
 
-	//‘‚«‚İstaticŠÖ”
+	//æ›¸ãè¾¼ã¿staticé–¢æ•°
 	static void write( const char* filename, const char* data, int size );
 private:
 	int mSize;

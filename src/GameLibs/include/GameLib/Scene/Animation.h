@@ -1,10 +1,10 @@
-#ifndef INCLUDED_GAMELIB_SCENE_ANIMATION_H
+ï»¿#ifndef INCLUDED_GAMELIB_SCENE_ANIMATION_H
 #define INCLUDED_GAMELIB_SCENE_ANIMATION_H
 
 namespace GameLib{
 namespace Scene{
 
-///ƒAƒjƒ[ƒVƒ‡ƒ“ƒf[ƒ^
+///ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ãƒ‡ãƒ¼ã‚¿
 class Animation{
 public:
 	Animation();

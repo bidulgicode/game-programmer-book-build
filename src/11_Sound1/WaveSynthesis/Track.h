@@ -1,4 +1,4 @@
-#ifndef INCLUDED_TRACK_H
+﻿#ifndef INCLUDED_TRACK_H
 #define INCLUDED_TRACK_H
 
 struct Note;

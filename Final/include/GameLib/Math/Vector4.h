@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_MATH_VECTOR4_H
+﻿#ifndef INCLUDED_GAMELIB_MATH_VECTOR4_H
 #define INCLUDED_GAMELIB_MATH_VECTOR4_H
 
 namespace GameLib{
@@ -6,7 +6,7 @@ namespace Math{
 
 class Vector3;
 
-///3�����������W�Ƃ��Ďg���ׂ��N���X�B���̂��߉��Z�͂قƂ�Ǘp�ӂ��Ȃ��B
+///3次元同次座標として使うべきクラス。そのため演算はほとんど用意しない。
 class Vector4{
 public:
 	Vector4();

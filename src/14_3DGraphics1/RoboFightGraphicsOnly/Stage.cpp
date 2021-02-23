@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 using namespace GameLib;
 #include "Stage.h"
 #include "Matrix44.h"
@@ -25,7 +25,7 @@ void Stage::draw( const Matrix44& pvm ) const {
 		{ 1.0, 1.0  },
 	};
 
-	//s—ñ‚ÉƒxƒNƒ^‚ğ‚©‚¯‚Ä‰ñ‚é
+	//è¡Œåˆ—ã«ãƒ™ã‚¯ã‚¿ã‚’ã‹ã‘ã¦å›ã‚‹
 	double p4[ 4 ][ 4 ];
 	for ( int i = 0; i < 4; ++i ){
 		pvm.multiply( p4[ i ], p[ i ] );

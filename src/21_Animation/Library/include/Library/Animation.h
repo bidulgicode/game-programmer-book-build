@@ -1,4 +1,4 @@
-#ifndef INCLUDED_ANIMATION_H
+Ôªø#ifndef INCLUDED_ANIMATION_H
 #define INCLUDED_ANIMATION_H
 
 #include <string>
@@ -16,7 +16,7 @@ class Animation{
 public:
 	Animation( GameLib::PseudoXml::Element& );
 	~Animation();
-	//ÉmÅ[ÉhÇÇ‡ÇÁÇ§
+	//„Éé„Éº„Éâ„Çí„ÇÇ„Çâ„ÅÜ
 	const AnimationNode* node( const char* name ) const;
 	const string* name() const;
 private:

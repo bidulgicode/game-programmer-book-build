@@ -1,0 +1,16 @@
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Modules/CMakeFiles/Modules.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Modules/CMakeFiles/ALL_BUILD.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/2DActionGame/CMakeFiles/2DActionGameFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/2DGraphics1/CMakeFiles/2DGraphicsFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/2DTransform/CMakeFiles/2DTransformFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/3DCollision1/CMakeFiles/3DCollisionFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/3DGraphics1/CMakeFiles/3DGraphicsFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/3DHardware1/CMakeFiles/3DHardwareFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Final/CMakeFiles/FinalFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/InputDevices/CMakeFiles/InputDevicesFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Loading/CMakeFiles/LoadingFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/RealTime/CMakeFiles/RealtimeFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Sequence1/CMakeFiles/SequenceFramework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Sound1/CMakeFiles/Sound1Framework.dir
+C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/build/Sound2/CMakeFiles/Sound2Framework.dir

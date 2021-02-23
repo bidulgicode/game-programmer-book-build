@@ -1,4 +1,4 @@
-#ifndef INCLUDED_PSEUDO_XML_ATTRIBUTE_H
+ï»¿#ifndef INCLUDED_PSEUDO_XML_ATTRIBUTE_H
 #define INCLUDED_PSEUDO_XML_ATTRIBUTE_H
 
 #include <string>
@@ -13,19 +13,19 @@ public:
 	~Attribute();
 
 	void set( const char* name, const char* value );
-	void set( const char* name, int value ); //int’l
-	void set( const char* name, double value ); //double’l
-	void set( const char* name, const int* values, int number ); //int”z—ñ
-	void set( const char* name, const double* values, int number ); //double”z—ñ
+	void set( const char* name, int value ); //intå€¤
+	void set( const char* name, double value ); //doubleå€¤
+	void set( const char* name, const int* values, int number ); //inté…åˆ—
+	void set( const char* name, const double* values, int number ); //doubleé…åˆ—
 	const string* value() const;
 	const string* name() const;
-	//¸”s‚·‚é‚Æ0‚ğ•Ô‚·‚ªA‚à‚Æ‚à‚Æ0‚ª“ü‚Á‚Ä‚¢‚½‚Ì‚Æ‚Í‹æ•Ê‚ª‚Â‚©‚È‚¢B
+	//å¤±æ•—ã™ã‚‹ã¨0ã‚’è¿”ã™ãŒã€ã‚‚ã¨ã‚‚ã¨0ãŒå…¥ã£ã¦ã„ãŸã®ã¨ã¯åŒºåˆ¥ãŒã¤ã‹ãªã„ã€‚
 	int getIntValue() const;
-	//¸”s‚·‚é‚Æ0.0‚ğ•Ô‚·‚ªA‚à‚Æ‚à‚Æ0.0‚ª“ü‚Á‚Ä‚¢‚½‚Ì‚Æ‚Í‹æ•Ê‚ª‚Â‚©‚È‚¢B
+	//å¤±æ•—ã™ã‚‹ã¨0.0ã‚’è¿”ã™ãŒã€ã‚‚ã¨ã‚‚ã¨0.0ãŒå…¥ã£ã¦ã„ãŸã®ã¨ã¯åŒºåˆ¥ãŒã¤ã‹ãªã„ã€‚
 	double getDoubleValue() const;
-	//–ß‚è’l‚ÍÀÛ‚É“Ç‚ß‚½—v‘f”
+	//æˆ»ã‚Šå€¤ã¯å®Ÿéš›ã«èª­ã‚ãŸè¦ç´ æ•°
 	int getIntValues( int* out, int number ) const;
-	//–ß‚è’l‚ÍÀÛ‚É“Ç‚ß‚½—v‘f”
+	//æˆ»ã‚Šå€¤ã¯å®Ÿéš›ã«èª­ã‚ãŸè¦ç´ æ•°
 	int getDoubleValues( double* out, int number ) const;
 private:
 	string mName;

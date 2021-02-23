@@ -1,4 +1,4 @@
-#ifndef INCLUDED_CONVERSION_H
+﻿#ifndef INCLUDED_CONVERSION_H
 #define INCLUDED_CONVERSION_H
 
 #include "GameLib/PseudoXml/Document.h"

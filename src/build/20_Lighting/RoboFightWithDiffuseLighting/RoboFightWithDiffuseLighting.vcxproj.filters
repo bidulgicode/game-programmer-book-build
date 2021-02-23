@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Pad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Robo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Batch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\GraphicsDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Matrix34.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Matrix44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Pad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Robo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\GraphicsDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Matrix34.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Matrix44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithDiffuseLighting\Library\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F47BF6AE-1CE4-328F-A88F-BA6B1DE72F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85F82CD5-A6DC-3831-9B32-EF5B52CDBD82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

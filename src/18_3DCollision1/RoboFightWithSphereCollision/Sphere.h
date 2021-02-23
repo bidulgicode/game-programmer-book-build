@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SPHERE_H
+ï»¿#ifndef INCLUDED_SPHERE_H
 #define INCLUDED_SPHERE_H
 
 #include "Library/Vector3.h"
@@ -9,7 +9,7 @@ public:
 
 	void setPosition( const Vector3& );
 	void setRadius( double );
-	//ó‚¯æ‚Á‚½ˆÚ“®ƒxƒNƒ^‚Ì¬•ª‚Ì‚¤‚¿‘Šè‚É“–‚½‚ç‚È‚¢‚Å“®‚¯‚é¬•ª‚¾‚¯‚ğc‚·
+	//å—ã‘å–ã£ãŸç§»å‹•ãƒ™ã‚¯ã‚¿ã®æˆåˆ†ã®ã†ã¡ç›¸æ‰‹ã«å½“ãŸã‚‰ãªã„ã§å‹•ã‘ã‚‹æˆåˆ†ã ã‘ã‚’æ®‹ã™
 	void restrictMove( Vector3* moveVectorInOut, const Sphere& ) const;
 private:
 	Vector3 mPosition;

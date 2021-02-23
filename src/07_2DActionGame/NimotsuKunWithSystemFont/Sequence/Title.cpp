@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 using namespace GameLib;
 
 #include "GameLib/Framework.h"
@@ -17,15 +17,15 @@ Title::~Title(){
 }
 
 void Title::update( Parent* parent ){
-	//“ü—Íæ“¾
+	//å…¥åŠ›å–å¾—
 	if ( Framework::instance().isKeyTriggered( ' ' ) ){
 		parent->moveTo( Parent::SEQ_STAGE_SELECT );
 	}
-	//•`‰æ
+	//æç”»
 	mImage->draw();
-	//š‚ğo‚·
-	Framework::instance().drawDebugString( 0, 0, "ÆÓÂ¸İ" );
-	Framework::instance().drawDebugString( 0, 1, "½Íß°½·° ¦ µ¾" );
+	//å­—ã‚’å‡ºã™
+	Framework::instance().drawDebugString( 0, 0, "ï¾†ï¾“ï¾‚ï½¸ï¾" );
+	Framework::instance().drawDebugString( 0, 1, "ï½½ï¾ï¾Ÿï½°ï½½ï½·ï½° ï½¦ ï½µï½¾" );
 }
 
 } //namespace Sequence

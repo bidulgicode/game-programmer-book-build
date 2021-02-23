@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SQUARE_H
+ï»¿#ifndef INCLUDED_SQUARE_H
 #define INCLUDED_SQUARE_H
 
 class Square{
@@ -7,7 +7,7 @@ public:
 	Square( int x, int y, int halfSize );
 	void set( int x, int y, int halfSize );
 	bool isIntersect( const Square& b ) const;
-	//“–‚½‚ç‚¸‚É“®‚¯‚éŒÀŠE‚ğ’²‚×‚éB
+	//å½“ãŸã‚‰ãšã«å‹•ã‘ã‚‹é™ç•Œã‚’èª¿ã¹ã‚‹ã€‚
 	void getMoveLimit( int* dx, int* dy, const Square& wall, int iteration = 1 ) const;
 
 	int mX;

@@ -1,4 +1,4 @@
-#ifndef INCLUDED_MODEL_H
+﻿#ifndef INCLUDED_MODEL_H
 #define INCLUDED_MODEL_H
 
 #include "GameLib/Math/Vector3.h"

@@ -1,65 +1,65 @@
-#ifndef INCLUDED_GAMELIB_TANK_H
+ï»¿#ifndef INCLUDED_GAMELIB_TANK_H
 #define INCLUDED_GAMELIB_TANK_H
 
 #include "GameLib/Base/Array.h"
 
 namespace GameLib{
 
-///‘«‚µI‚í‚é‚Ü‚ÅƒAƒNƒZƒX‚¹‚¸A‚¢‚­‚Â‘«‚·‚©‚ª‚í‚©‚ç‚È‚¢A‚Æ‚¢‚¤—p“r‚Ì‚½‚ß‚Ì‚à‚Ì
+///è¶³ã—çµ‚ã‚ã‚‹ã¾ã§ã‚¢ã‚¯ã‚»ã‚¹ã›ãšã€ã„ãã¤è¶³ã™ã‹ãŒã‚ã‹ã‚‰ãªã„ã€ã¨ã„ã†ç”¨é€”ã®ãŸã‚ã®ã‚‚ã®
 /*!
-…‚ğ‚½‚ß‚Äˆê‹C‚É—¬‚·ƒCƒ[ƒW‚Åƒ^ƒ“ƒN‚Æ‚µ‚½‚ªA‚à‚Á‚Æ‚¢‚¢–¼‘O‚ª‚ ‚ê‚Î•åWB
-“à•”“I‚É‚Í—e—Ê’PˆÊ(blockSize)‚Ã‚Â“à•”‚ÅƒAƒƒP[ƒg‚µ‚ÄŒp‚¬‘«‚µ‚Ä‚¢‚­B
+æ°´ã‚’ãŸã‚ã¦ä¸€æ°—ã«æµã™ã‚¤ãƒ¡ãƒ¼ã‚¸ã§ã‚¿ãƒ³ã‚¯ã¨ã—ãŸãŒã€ã‚‚ã£ã¨ã„ã„åå‰ãŒã‚ã‚Œã°å‹Ÿé›†ã€‚
+å†…éƒ¨çš„ã«ã¯å®¹é‡å˜ä½(blockSize)ã¥ã¤å†…éƒ¨ã§ã‚¢ãƒ­ã‚±ãƒ¼ãƒˆã—ã¦ç¶™ãè¶³ã—ã¦ã„ãã€‚
 
-ƒAƒNƒZƒX‚ÍgetCurrent()‚Åæ“¾AtoNext()‚ÅŸ‚ÖBrewind()‚ÅÅ‰‚©‚çƒAƒNƒZƒX‚µ‚È‚¨‚¹‚éB
+ã‚¢ã‚¯ã‚»ã‚¹ã¯getCurrent()ã§å–å¾—ã€toNext()ã§æ¬¡ã¸ã€‚rewind()ã§æœ€åˆã‹ã‚‰ã‚¢ã‚¯ã‚»ã‚¹ã—ãªãŠã›ã‚‹ã€‚
 */
 template< class T > class Tank{
 public:
 	explicit Tank( int blockSize = 16 );
 	~Tank();
-	///ÄŠm•ÛB’†g‚ª‚ ‚éó‘Ô‚ÅŒÄ‚Ô‚ÆassertBclear()‚µ‚ëB
+	///å†ç¢ºä¿ã€‚ä¸­èº«ãŒã‚ã‚‹çŠ¶æ…‹ã§å‘¼ã¶ã¨assertã€‚clear()ã—ã‚ã€‚
 	void setBlockSize( int blockSize );
-	///Œ»İ‚Ì—v‘f”æ“¾
+	///ç¾åœ¨ã®è¦ç´ æ•°å–å¾—
 	int size() const;
-	///‘S‰ğ•ú
+	///å…¨è§£æ”¾
 	void clear();
-	///––”ö‚É‹ó‚Å’Ç‰ÁB‘«‚µ‚½‚à‚Ì‚Ö‚Ìƒ|ƒCƒ“ƒ^‚ğ•Ô‚·‚Ì‚ÅA‰Šúİ’è‚Í‚±‚ê‚ğg‚¤‚±‚ÆB
+	///æœ«å°¾ã«ç©ºã§è¿½åŠ ã€‚è¶³ã—ãŸã‚‚ã®ã¸ã®ãƒã‚¤ãƒ³ã‚¿ã‚’è¿”ã™ã®ã§ã€åˆæœŸè¨­å®šã¯ã“ã‚Œã‚’ä½¿ã†ã“ã¨ã€‚
 	T* add();
-	///––”ö‚É’Ç‰Á
+	///æœ«å°¾ã«è¿½åŠ 
 	void add( const T& );
-	///Ÿ‚Ö
+	///æ¬¡ã¸
 	void toNext();
-	///I‚í‚è‚Å‚·
+	///çµ‚ã‚ã‚Šã§ã™
 	bool isEnd() const;
-	///Œ»İ‚Ì—v‘f‚ğæ“¾(”ñconst)
+	///ç¾åœ¨ã®è¦ç´ ã‚’å–å¾—(éconst)
 	T* get();
-	///Œ»İ‚Ì—v‘f‚ğæ“¾(const)
+	///ç¾åœ¨ã®è¦ç´ ã‚’å–å¾—(const)
 	const T* get() const;
-	///Å‰‚Ì—v‘f‚Éƒ|ƒCƒ“ƒ^‚ğ–ß‚·
+	///æœ€åˆã®è¦ç´ ã«ãƒã‚¤ãƒ³ã‚¿ã‚’æˆ»ã™
 	void rewind();
-	///’P‚È‚é”z—ñ‚É•ÏŠ·B‘O‚à‚Á‚Äsize()‚µ‚½ƒTƒCƒY‚Ånew‚µ‚½—Ìˆæ‚ğ“n‚·‚±‚ÆB
+	///å˜ãªã‚‹é…åˆ—ã«å¤‰æ›ã€‚å‰ã‚‚ã£ã¦size()ã—ãŸã‚µã‚¤ã‚ºã§newã—ãŸé ˜åŸŸã‚’æ¸¡ã™ã“ã¨ã€‚
 	void copyTo( T* ) const;
-	///Array‚ÉƒRƒs[B‹ó‚Å‚È‚¢‚Æ“{‚ç‚ê‚éB
+	///Arrayã«ã‚³ãƒ”ãƒ¼ã€‚ç©ºã§ãªã„ã¨æ€’ã‚‰ã‚Œã‚‹ã€‚
 	void copyTo( Array< T >* ) const;
 private:
 	struct Block{
-		Block* mNext; //Ÿ‚Ìƒm[ƒh
-		T* mElements; //”z—ñ
+		Block* mNext; //æ¬¡ã®ãƒãƒ¼ãƒ‰
+		T* mElements; //é…åˆ—
 	};
-	void operator=( const Tank& ); //‘ã“ü‹Ö~
-	Tank( const Tank& ); //ƒRƒs[ƒRƒ“ƒXƒgƒ‰ƒNƒ^‹Ö~
+	void operator=( const Tank& ); //ä»£å…¥ç¦æ­¢
+	Tank( const Tank& ); //ã‚³ãƒ”ãƒ¼ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ç¦æ­¢
 
-	//’è”
-	int mBlockSize; //’PˆÊ—Ê
+	//å®šæ•°
+	int mBlockSize; //å˜ä½é‡
 	int mSize;
-	Block mHead; //ƒ_ƒ~[
+	Block mHead; //ãƒ€ãƒŸãƒ¼
 
-	Block* mLastBlock; //ÅIƒm[ƒh
-	int mLastPos; //ÅIƒm[ƒh“à‚ÌˆÊ’u
-	Block* mCurrentBlock; //Œ»İ‚ÌƒCƒeƒŒ[ƒ^
-	int mCurrentPos; //ƒm[ƒh“àˆÊ’u
+	Block* mLastBlock; //æœ€çµ‚ãƒãƒ¼ãƒ‰
+	int mLastPos; //æœ€çµ‚ãƒãƒ¼ãƒ‰å†…ã®ä½ç½®
+	Block* mCurrentBlock; //ç¾åœ¨ã®ã‚¤ãƒ†ãƒ¬ãƒ¼ã‚¿
+	int mCurrentPos; //ãƒãƒ¼ãƒ‰å†…ä½ç½®
 };
 
 } //namespace GameLib
-#include "GameLib/Base/Impl/TankImpl.h" //’†g‚Í‚±‚Ì’†
+#include "GameLib/Base/Impl/TankImpl.h" //ä¸­èº«ã¯ã“ã®ä¸­
 
 #endif

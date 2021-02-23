@@ -1,4 +1,4 @@
-#include "Image.h"
+﻿#include "Image.h"
 #include "File.h"
 
 #include "GameLib/Framework.h"

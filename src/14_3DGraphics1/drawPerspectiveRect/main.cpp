@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 #include "GameLib/Input/Manager.h"
 #include "GameLib/Input/Keyboard.h"
 #include <sstream>
@@ -18,16 +18,16 @@ namespace GameLib{
 			{ 500.0, 1500.0, 2000.0 },
 		};
 
-		//x,y‚ğz‚ÅŠ„‚èAz‚ğ[1,1000]‚©‚ç[0,1]‚É”ÍˆÍ•ÏŠ·‚·‚éB
+		//x,yã‚’zã§å‰²ã‚Šã€zã‚’[1,1000]ã‹ã‚‰[0,1]ã«ç¯„å›²å¤‰æ›ã™ã‚‹ã€‚
 		for ( int i = 0; i < 4; ++i ){
-			//ˆÚ“®—Ê‰ÁZ
+			//ç§»å‹•é‡åŠ ç®—
 			p[ i ][ 0 ] += gXMove;
 			p[ i ][ 2 ] += gZMove;
 			p[ i ][ 0 ] /= p[ i ][ 2 ];
 			p[ i ][ 1 ] /= p[ i ][ 2 ];
 			p[ i ][ 2 ] = ( 1.0/9999.0 ) * p[ i ][ 2 ] - ( 1.0/9999.0 );
 		}
-		//lŠpŒ`‚ğ•`‚­B
+		//å››è§’å½¢ã‚’æãã€‚
 		drawTriangle3D( p[ 0 ], p[ 1 ], p[ 2 ] );
 		drawTriangle3D( p[ 3 ], p[ 1 ], p[ 2 ] );
 
@@ -41,7 +41,7 @@ namespace GameLib{
 		}else if ( Input::Manager::instance().keyboard().isOn( 's' ) ){
 			gXMove += 10.f; 
 		}
-		//•\¦
+		//è¡¨ç¤º
 		ostringstream oss;
 		oss << "[w-z] Z MOVEMENT: " << gZMove;
 		drawDebugString( 10, 0, oss.str().c_str() );

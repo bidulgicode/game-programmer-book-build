@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Pad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Robo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Batch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\GraphicsDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Matrix34.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Matrix44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Pad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Robo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\GraphicsDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Matrix34.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Matrix44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\20_Lighting\RoboFightWithSmoothShading\Library\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F47BF6AE-1CE4-328F-A88F-BA6B1DE72F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85F82CD5-A6DC-3831-9B32-EF5B52CDBD82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

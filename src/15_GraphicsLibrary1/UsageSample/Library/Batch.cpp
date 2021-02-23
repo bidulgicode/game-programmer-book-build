@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 #include "GameLib/Framework.h"
 using namespace GameLib;
 #include "Library/Batch.h"
@@ -27,19 +27,19 @@ Batch::~Batch(){
 
 void Batch::draw( const Matrix44& transform ) const {
 	Framework f = Framework::instance();
-	//ƒeƒNƒXƒ`ƒƒƒZƒbƒg
+	//ãƒ†ã‚¯ã‚¹ãƒãƒ£ã‚»ãƒƒãƒˆ
 	f.setTexture( mTexture );
-	//ƒuƒŒƒ“ƒhƒ‚[ƒhƒZƒbƒg
+	//ãƒ–ãƒ¬ãƒ³ãƒ‰ãƒ¢ãƒ¼ãƒ‰ã‚»ãƒƒãƒˆ
 	f.setBlendMode( mBlendMode );
-	//ƒuƒŒƒ“ƒhƒ‚[ƒh‚É‚æ‚Á‚ÄZƒoƒbƒtƒ@‘‚«ž‚Ý‚Ìƒtƒ‰ƒO‚ðOn,Off
+	//ãƒ–ãƒ¬ãƒ³ãƒ‰ãƒ¢ãƒ¼ãƒ‰ã«ã‚ˆã£ã¦Zãƒãƒƒãƒ•ã‚¡æ›¸ãè¾¼ã¿ã®ãƒ•ãƒ©ã‚°ã‚’On,Off
 	if ( mBlendMode == Framework::BLEND_OPAQUE ){
 		f.enableDepthWrite( true );
 	}else{
 		f.enableDepthWrite( false );
 	}
-	//ZƒeƒXƒg‚Í‚¢‚Â‚àOn
+	//Zãƒ†ã‚¹ãƒˆã¯ã„ã¤ã‚‚On
 	f.enableDepthTest( true );
-	//’¸“_•ÏŠ·
+	//é ‚ç‚¹å¤‰æ›
 	int vertexNumber = mVertexBuffer->size();
 	double* p4 = new double[ vertexNumber * 4 ];
 	for ( int i = 0;i < vertexNumber; ++i ){

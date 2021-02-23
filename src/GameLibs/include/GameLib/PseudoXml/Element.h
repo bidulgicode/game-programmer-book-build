@@ -1,4 +1,4 @@
-#ifndef INCLUDED_GAMELIB_PSEUDOXML_ELEMENT_H
+ï»¿#ifndef INCLUDED_GAMELIB_PSEUDOXML_ELEMENT_H
 #define INCLUDED_GAMELIB_PSEUDOXML_ELEMENT_H
 
 namespace GameLib{
@@ -27,7 +27,7 @@ public:
 
 	void convertToString( OStringStream* out ) const;
 
-	//ˆÈ‰ºg—pÒ‚ÍˆÓ¯‚µ‚È‚­‚Ä—Ç‚¢B
+	//ä»¥ä¸‹ä½¿ç”¨è€…ã¯æ„è­˜ã—ãªãã¦è‰¯ã„ã€‚
 	Element();
 	Element( const Element& );
 	~Element();
@@ -54,7 +54,7 @@ public:
 	const char* name() const;
 	void convertToString( OStringStream* out ) const;
 
-	//ˆÈ‰º’m‚ç‚È‚­‚Ä‚¢‚¢
+	//ä»¥ä¸‹çŸ¥ã‚‰ãªãã¦ã„ã„
 	ConstElement();
 	ConstElement( const Element& );
 	~ConstElement();

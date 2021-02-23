@@ -1,4 +1,4 @@
-#include "Library/Vector2.h"
+﻿#include "Library/Vector2.h"
 
 Vector2::Vector2(){}
 

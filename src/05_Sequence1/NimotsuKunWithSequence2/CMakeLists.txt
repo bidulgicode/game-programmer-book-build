@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 set( PROJECT_NAME NimotsuKunWithSequence2 )
 set( SECTION_NAME Sequence1 )

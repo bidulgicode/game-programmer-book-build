@@ -1,0 +1,73 @@
+﻿  ConvertToCode
+  DebugStream.cpp
+  Halt.cpp
+  IBinaryStream.cpp
+  MemoryManager.cpp
+  OStringStream.cpp
+  PrimeNumber.cpp
+  RefString.cpp
+  Compressor.cpp
+  Conversion.cpp
+  OutFile.cpp
+  InFile.cpp
+  Texture.cpp
+  VertexBuffer.cpp
+  IndexBuffer.cpp
+  Matrix22.cpp
+  Matrix23.cpp
+  Matrix33.cpp
+  Matrix34.cpp
+  Matrix44.cpp
+  Random.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  vector2.cpp
+  Vector3.cpp
+  Vector4.cpp
+  Joystick.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Document.cpp
+  DocumentImpl.cpp
+  Element.cpp
+  Tag.cpp
+  Attribute.cpp
+  PrimitiveRenderer.cpp
+  StringRenderer.cpp
+  Tree.cpp
+  TreeTemplate.cpp
+  Animation.cpp
+  AnimationNode.cpp
+  Batch.cpp
+  CollisionDetector.cpp
+  CollisionMesh.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Container.cpp
+  Font.cpp
+  Model.cpp
+  Wave.cpp
+  Player.cpp
+  Thread.cpp
+  Event.cpp
+  Mutex.cpp
+  Semaphore.cpp
+  WindowCreator.cpp
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp(293,4): warning C4566: 유니버설 문자 이름 '\u8A33'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp(294,4): warning C4566: 유니버설 문자 이름 '\u30FC'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp(338,7): warning C4566: 유니버설 문자 이름 '\u7D99'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp(338,7): warning C4566: 유니버설 문자 이름 '\u7D9A'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp(338,7): warning C4566: 유니버설 문자 이름 '\u8A33'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp(339,7): warning C4566: 유니버설 문자 이름 '\u30FC'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  코드를 생성하고 있습니다...
+  Manager.cpp
+  Manager.cpp
+  Functions.cpp
+  Manager.cpp
+  Manager.cpp
+  Functions.cpp
+  Manager.cpp
+d3d9.lib(d3d9.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR이(가) winmm.lib(WINMM.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+dsound.lib(DSOUND.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR이(가) winmm.lib(WINMM.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+dinput8.lib(DINPUT8.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR이(가) winmm.lib(WINMM.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+  Modules.vcxproj -> C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\lib\Modules.lib

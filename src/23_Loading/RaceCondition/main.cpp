@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+ï»¿#include "GameLib/Framework.h"
 #include "GameLib/Threading/Thread.h"
 #include <sstream>
 using namespace std;
@@ -8,14 +8,14 @@ int gX;
 bool gWrite;
 bool gRead;
 
-//ƒXƒŒƒbƒh‚ÅÀs‚·‚éŠÖ”‚ğ‚ÂƒNƒ‰ƒX
+//ã‚¹ãƒ¬ãƒƒãƒ‰ã§å®Ÿè¡Œã™ã‚‹é–¢æ•°ã‚’æŒã¤ã‚¯ãƒ©ã‚¹
 class MyThread : public Thread{
 public:
 	MyThread(){ start(); }
 	~MyThread(){ wait(); }
 	void operator()(){
 		for ( int i = 0; i < 100; ++i ){
-			while ( !gRead ){ //“Ç‚Ü‚ê‚é‚Ü‚Å‘Ò‚Â
+			while ( !gRead ){ //èª­ã¾ã‚Œã‚‹ã¾ã§å¾…ã¤
 				;
 			}
 			gX += 2;
@@ -35,7 +35,7 @@ namespace GameLib{
 		gRead = true;
 		MyThread t;
 		for ( int i = 0; i < 100; ++i ){
-			while ( !gWrite ){ //‘‚©‚ê‚é‚Ü‚Å‘Ò‚Â
+			while ( !gWrite ){ //æ›¸ã‹ã‚Œã‚‹ã¾ã§å¾…ã¤
 				;
 			}
 			o.str( "" );

@@ -1,4 +1,4 @@
-#include "GameLib/GameLib.h"
+ï»¿#include "GameLib/GameLib.h"
 using namespace GameLib;
 
 #include "Sequence/Game/Ready.h"
@@ -24,13 +24,13 @@ void Ready::update( Parent* parent ){
 		parent->startLoading();
 		mStarted = true;
 	}
-	//•`‰æ
+	//æç”»
 	parent->drawState();
-	if ( mCount >= 120 ){ //2•bŒo‚Á‚½‚çPlay‚Ö
+	if ( mCount >= 120 ){ //2ç§’çµŒã£ãŸã‚‰Playã¸
 		parent->moveTo( Parent::NEXT_PLAY );
-	}else if ( mCount >= 60 ){ //Go‚ğ•\¦
+	}else if ( mCount >= 60 ){ //Goã‚’è¡¨ç¤º
 		mImageGo->draw();
-	}else{ //Ready...‚ğ•\¦
+	}else{ //Ready...ã‚’è¡¨ç¤º
 		mImageReady->draw();
 	}
 

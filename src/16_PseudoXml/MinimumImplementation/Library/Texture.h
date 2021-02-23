@@ -1,4 +1,4 @@
-#ifndef INCLUDED_TEXTURE_H
+ï»¿#ifndef INCLUDED_TEXTURE_H
 #define INCLUDED_TEXTURE_H
 
 namespace GameLib{
@@ -12,7 +12,7 @@ class Texture{
 public:
 	Texture( const PseudoXml::Element* );
 	~Texture();
-	void set() const; //ƒfƒoƒCƒX‚ÉƒZƒbƒg
+	void set() const; //ãƒ‡ãƒã‚¤ã‚¹ã«ã‚»ãƒƒãƒˆ
 	const string* name() const;
 private:
 	GameLib::Texture* mTexture;

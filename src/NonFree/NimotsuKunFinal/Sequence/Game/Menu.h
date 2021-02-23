@@ -1,4 +1,4 @@
-#ifndef INCLUDED_SEQUENCE_GAME_MENU_H
+Ôªø#ifndef INCLUDED_SEQUENCE_GAME_MENU_H
 #define INCLUDED_SEQUENCE_GAME_MENU_H
 
 class Image;
@@ -14,7 +14,7 @@ public:
 	void update( Parent* );
 private:
 	Image* mImage;
-	int mMenuCursor; //ÉJÅ[É\Éãà íu
+	int mMenuCursor; //„Ç´„Éº„ÇΩ„É´‰ΩçÁΩÆ
 };
 
 } //namespace Game

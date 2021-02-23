@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98429474-C210-3F1B-BEF3-E80CD1E7795D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Modules</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Modules.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Modules_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Modules.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Modules</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\..\include;C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\lib\Modules_d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\..\include;C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\..\include;C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>ConvertToCode</Message>
+      <Command>setlocal
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/NoLightingVs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/NoLightingVsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/VertexLightingVs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/VertexLightingVsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/PixelLightingVs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/PixelLightingVsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/PixelLightingPs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/PixelLightingPsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) winmm.lib d3d9.lib dsound.lib dinput8.lib dxguid.lib</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\..\include;C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\lib\Modules.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\..\include;C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\..\include;C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>ConvertToCode</Message>
+      <Command>setlocal
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/NoLightingVs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/NoLightingVsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/VertexLightingVs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/VertexLightingVsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/PixelLightingVs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/PixelLightingVsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+..\..\Modules\..\..\Tools\bin\ConvertToCode.exe C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/shader/PixelLightingPs.obj -o C:/Users/MikumiX/Documents/Repos/game-programmer-book-build/src/GameLibs/Modules/src/Graphics/PixelLightingPsGenerated.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) winmm.lib d3d9.lib dsound.lib dinput8.lib dxguid.lib</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\DebugStream.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\Halt.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\IBinaryStream.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\MemoryManager.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\OStringStream.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\PrimeNumber.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\RefString.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\Compressor.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Base\Conversion.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\OutFile.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\OutFileImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\Archive.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\InFile.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\InFileImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\Manager.cpp">
+      <ObjectFileName>$(IntDir)/src/FileIO/Manager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\FileIO\ManagerImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\Texture.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\TextureImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\VertexBuffer.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\VertexBufferImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\VertexLightingVsGenerated.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\IndexBuffer.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\IndexBufferImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\Manager.cpp">
+      <ObjectFileName>$(IntDir)/src/Graphics/Manager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\ManagerImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\NoLightingVsGenerated.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\PixelLightingPsGenerated.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Graphics\PixelLightingVsGenerated.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Functions.cpp">
+      <ObjectFileName>$(IntDir)/src/Math/Functions.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix22.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix23.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix33.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix34.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Matrix44.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Random.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\vector2.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Vector3.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Math\Vector4.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Joystick.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\JoystickImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Keyboard.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Manager.cpp">
+      <ObjectFileName>$(IntDir)/src/Input/Manager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\ManagerImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Input\Mouse.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Document.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\DocumentImpl.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\DocumentImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Element.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\ElementImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Tag.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Tag.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\Attribute.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\PseudoXml\AttributeImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Node.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\NodeTemplate.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\PrimitiveRenderer.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\StringRenderer.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Tree.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\TreeImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\TreeTemplate.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\TreeTemplate.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Animation.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\AnimationImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\AnimationNode.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\AnimationNode.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Batch.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\BatchImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\CollisionDetector.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\CollisionMesh.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Container.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\ContainerImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Curve.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Font.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\FontImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\FontImplBitmap.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\FontImplOS.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\Model.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Scene\ModelImpl.h" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\PlayerImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\Wave.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\WaveImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\Manager.cpp">
+      <ObjectFileName>$(IntDir)/src/Sound/Manager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\ManagerImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Sound\Player.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Thread.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Event.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Functions.cpp">
+      <ObjectFileName>$(IntDir)/src/Threading/Functions.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Manager.cpp">
+      <ObjectFileName>$(IntDir)/src/Threading/Manager.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\ManagerImpl.h" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Mutex.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\Threading\Semaphore.cpp" />
+    <ClCompile Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\WindowCreator.cpp" />
+    <ClInclude Include="C:\Users\MikumiX\Documents\Repos\game-programmer-book-build\src\GameLibs\Modules\src\WindowCreator\Resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

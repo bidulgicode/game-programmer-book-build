@@ -1,4 +1,4 @@
-#ifndef INCLUDED_XFILE_TOKEN_H
+Ôªø#ifndef INCLUDED_XFILE_TOKEN_H
 #define INCLUDED_XFILE_TOKEN_H
 
 #include "GameLib/Base/RefString.h"
@@ -7,7 +7,7 @@ namespace XFile{
 
 using namespace GameLib;
 
-//ÉgÅ[ÉNÉì
+//„Éà„Éº„ÇØ„É≥
 class Token{
 public:
 	enum Type{

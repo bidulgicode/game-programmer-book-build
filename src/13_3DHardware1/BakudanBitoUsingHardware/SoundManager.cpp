@@ -1,4 +1,4 @@
-#include "SoundManager.h"
+ï»¿#include "SoundManager.h"
 #include "GameLib/GameLib.h"
 #include "GameLib/Sound/Wave.h"
 #include "GameLib/Sound/Player.h"
@@ -23,11 +23,11 @@ void SoundManager::destroy(){
 
 SoundManager::SoundManager() :
 mSePlayerPos( 0 ){
-	//ƒtƒ@ƒCƒ‹–¼ƒŠƒXƒg‚ğƒ[ƒhŠJnB
-	//‚¿‚á‚ñ‚Æì‚é‚È‚ç‚É‚Íƒtƒ@ƒCƒ‹–¼ƒŠƒXƒg‚Í•Êƒtƒ@ƒCƒ‹‚É‚µ‚½‚èA
-	//ƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚É‚µ‚Äƒ[ƒh‚µ‚½‚è‚·‚é‚±‚Æ‚É‚È‚éB
+	//ãƒ•ã‚¡ã‚¤ãƒ«åãƒªã‚¹ãƒˆã‚’ãƒ­ãƒ¼ãƒ‰é–‹å§‹ã€‚
+	//ã¡ã‚ƒã‚“ã¨ä½œã‚‹ãªã‚‰ã«ã¯ãƒ•ã‚¡ã‚¤ãƒ«åãƒªã‚¹ãƒˆã¯åˆ¥ãƒ•ã‚¡ã‚¤ãƒ«ã«ã—ãŸã‚Šã€
+	//ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã«ã—ã¦ãƒ­ãƒ¼ãƒ‰ã—ãŸã‚Šã™ã‚‹ã“ã¨ã«ãªã‚‹ã€‚
 
-	//‚È‚¨A‚±‚ê‚Íì‚È‚Ì‚Å‘S•”“¯‚¶ƒtƒ@ƒCƒ‹...
+	//ãªãŠã€ã“ã‚Œã¯è©¦ä½œãªã®ã§å…¨éƒ¨åŒã˜ãƒ•ã‚¡ã‚¤ãƒ«...
 	const char* bgmFiles[] = {
 		"charara.wav", //BGM_TITLE
 		"charara.wav", //BGM_GAME
@@ -39,14 +39,14 @@ mSePlayerPos( 0 ){
 		"dokaan.wav", //SE_SELECTION
 		"dokaan.wav", //SE_SET_BOMB
 	};
-	std::ostringstream oss; //•¶š—ñ‡¬—p•¶š—ñƒXƒgƒŠ[ƒ€
+	std::ostringstream oss; //æ–‡å­—åˆ—åˆæˆç”¨æ–‡å­—åˆ—ã‚¹ãƒˆãƒªãƒ¼ãƒ 
 	for ( int i = 0; i < BGM_MAX; ++i ){
-		oss.str( "" ); //‰Šú‰»
+		oss.str( "" ); //åˆæœŸåŒ–
 		oss << "data/sound/bgm/" << bgmFiles[ i ];
 		mBgmWaves[ i ] = Sound::Wave::create( oss.str().c_str() );
 	}
 	for ( int i = 0; i < SE_MAX; ++i ){
-		oss.str( "" ); //‰Šú‰»
+		oss.str( "" ); //åˆæœŸåŒ–
 		oss << "data/sound/se/" << seFiles[ i ];
 		mSeWaves[ i ] = Sound::Wave::create( oss.str().c_str() );
 	}
@@ -56,8 +56,8 @@ SoundManager::~SoundManager(){
 }
 
 bool SoundManager::hasLoaded(){
-	//‘S•”‚ÌWave‚ªtrue‚ğ•Ô‚·‚©’²‚×‚é
-	//&&‚ğæ‚Á‚Ä‚¢‚­‚ÆˆêŒÂ‚Å‚àfalse‚È‚çfalse‚É‚È‚é‚í‚¯‚¾B
+	//å…¨éƒ¨ã®WaveãŒtrueã‚’è¿”ã™ã‹èª¿ã¹ã‚‹
+	//&&ã‚’å–ã£ã¦ã„ãã¨ä¸€å€‹ã§ã‚‚falseãªã‚‰falseã«ãªã‚‹ã‚ã‘ã ã€‚
 	bool ret = true;
 	for ( int i = 0; i < BGM_MAX; ++i ){
 		ret = ret && mBgmWaves[ i ].isReady();
@@ -70,7 +70,7 @@ bool SoundManager::hasLoaded(){
 
 void SoundManager::playBgm( Bgm bgm ){
 	mBgmPlayer = Sound::Player::create( mBgmWaves[ bgm ] );
-	mBgmPlayer.play( true ); //ƒ‹[ƒvÄ¶
+	mBgmPlayer.play( true ); //ãƒ«ãƒ¼ãƒ—å†ç”Ÿ
 }
 
 void SoundManager::stopBgm(){
@@ -81,9 +81,9 @@ void SoundManager::stopBgm(){
 
 void SoundManager::playSe( Se se ){
 	mSePlayers[ mSePlayerPos ] = Sound::Player::create( mSeWaves[ se ] );
-	mSePlayers[ mSePlayerPos ].play(); //Ä¶
+	mSePlayers[ mSePlayerPos ].play(); //å†ç”Ÿ
 	++mSePlayerPos;
-	//Šª‚«–ß‚µ
+	//å·»ãæˆ»ã—
 	if ( mSePlayerPos == SE_PLAYER_MAX ){
 		mSePlayerPos = 0;
 	}

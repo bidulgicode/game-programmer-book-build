@@ -1,4 +1,4 @@
-#include "Image.h"
+﻿#include "Image.h"
 #include "File.h"
 #include "Vector2.h"
 

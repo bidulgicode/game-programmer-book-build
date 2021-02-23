@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Font", "06_Font", "{6D60FFBA-5617-3FCE-968C-362361402B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{1C5E776E-1610-3BCD-AFAF-8E02EDD49DC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70D8FEE3-C260-3911-A0DE-53CF22DB40B2} = {70D8FEE3-C260-3911-A0DE-53CF22DB40B2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NimotsuKunWithFont", "NimotsuKunWithFont\NimotsuKunWithFont.vcxproj", "{70D8FEE3-C260-3911-A0DE-53CF22DB40B2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}.Debug|x64.ActiveCfg = Debug|x64
+		{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0}.Release|x64.ActiveCfg = Release|x64
+		{70D8FEE3-C260-3911-A0DE-53CF22DB40B2}.Debug|x64.ActiveCfg = Debug|x64
+		{70D8FEE3-C260-3911-A0DE-53CF22DB40B2}.Debug|x64.Build.0 = Debug|x64
+		{70D8FEE3-C260-3911-A0DE-53CF22DB40B2}.Release|x64.ActiveCfg = Release|x64
+		{70D8FEE3-C260-3911-A0DE-53CF22DB40B2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70D8FEE3-C260-3911-A0DE-53CF22DB40B2} = {6D60FFBA-5617-3FCE-968C-362361402B87}
+		{3B16C7D2-18F5-3528-BD2F-070FE54EA0A0} = {1C5E776E-1610-3BCD-AFAF-8E02EDD49DC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E6D4F35-344C-3BF2-B00D-591C825ED731}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

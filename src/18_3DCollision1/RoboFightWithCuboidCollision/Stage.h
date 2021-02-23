@@ -1,4 +1,4 @@
-#ifndef INCLUDED_STAGE_H
+﻿#ifndef INCLUDED_STAGE_H
 #define INCLUDED_STAGE_H
 
 #include "Cuboid.h"

@@ -1,4 +1,4 @@
-#include "GameLib/Framework.h"
+﻿#include "GameLib/Framework.h"
 #include "Image.h"
 
 bool gFirst = true;

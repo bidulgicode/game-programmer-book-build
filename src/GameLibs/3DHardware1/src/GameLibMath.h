@@ -1,7 +1,7 @@
-#ifndef INCLUDED_GAMELIB_MATH_H
+﻿#ifndef INCLUDED_GAMELIB_MATH_H
 #define INCLUDED_GAMELIB_MATH_H
 
-//�p�x�P�ʂƂ��ēx����鐔�w���C�u����
+//角度単位として度を取る数学ライブラリ
 namespace GameLib{
 
 double sin( double degree );
